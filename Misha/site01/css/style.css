@@ -1,0 +1,160 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.one{
+ 	background-color:DeepSkyBlue;
+ 	width: 900px; 
+ 	margin: 0 auto;
+ 	padding: 20px;
+ }
+ 
+.one h1{
+	color:Aquamarine;
+	margin:20px 0 0 0;
+}
+
+.one h3{
+	color:Lavender;
+	margin: 0 0 10px 0;
+}
+
+.telefon{
+	text-align: right;
+}
+
+.telefon a{
+	margin: 0 5px 0 5px;
+	color:Purple;
+	text-decoration: none;
+}
+
+.three{
+	color:white;
+	text-align: center;
+	font-size: 16pt;
+}
+
+.two{
+	margin: 0 auto ;
+	padding: 0 20px;
+	background-image: linear-gradient(-20deg, #d558c8 0%, #24d292 100%), url("../img/bg.png");
+	background-size: contain;
+	width: 900px;
+	height: 400px;
+}
+
+.three h1{
+	padding-top: 120px;
+}
+
+.lol{
+	background-image: linear-gradient(to right, #f9d423 0%, #ff4e50 100%);
+	width: 900px;
+	margin: 0 auto;
+	padding:  20px 20px 60px 20px;
+}
+
+.levo{
+	width: 40%;
+}
+
+.pravo{
+	width: 50%;
+	float: right;
+	text-align:right;
+}
+
+.pravo h1{
+	color:DarkMagenta ;
+	margin: 20px 0;
+
+}
+
+input{
+	font-size: 14pt;
+	padding: 4px;
+	margin: 2px 0 10px 0;
+	background-color: Violet;
+	border-radius: 10px;
+	border:solid 4px DarkMagenta;
+}
+
+label{
+	font-size: 12pt;
+	color: Indigo;
+	margin: 10px;
+}
+
+form a{
+	font-size: 18px;
+	text-decoration: none;
+	color: SlateBlue;
+	background-color:GhostWhite;
+	padding: 10px;
+	border-radius: 10px;
+	border:solid 4px DarkGray;
+}
+
+form a:hover{
+	border:solid 4px DarkMagenta;
+	color:darkmagenta;
+	background-color: Violet;
+}
+
+.cartochka{
+	background-image: linear-gradient(to top, #fcc5e4 0%, #fda34b 15%, #ff7882 35%, #c8699e 52%, #7046aa 71%, #0c1db8 87%, #020f75 100%);
+	width: 900px;
+	margin: 0 auto;
+	padding:  20px;
+}
+
+.cart{
+	display: inline-block;
+	width: 250px;
+	background-color: white;
+	padding: 10px 10px 40px  10px;
+	margin: 10px;
+	text-align: center;
+	border-radius: 20px;
+	border: 2px solid greenyellow;
+
+}
+
+.cart img{
+	width: 100%;
+}
+
+.cart h1{
+	font-size: 26px;
+	margin-top:10px ;
+	color:DimGrey	 ;
+}
+
+.cart h2{
+	font-size: 20px;
+	color:DimGrey ;
+	margin-bottom:20px ;
+}
+
+.cart a{
+	background-color:greenyellow ;
+	padding: 10px;
+	border-radius: 8px;
+	font-size: 16pt;
+	text-decoration: none;
+	color: DarkBlue;
+}
+
+.podval{
+	background-image: linear-gradient(to bottom, #fcc5e4 0%, #fda34b 15%, #ff7882 35%, #c8699e 52%, #7046aa 71%, #0c1db8 87%, #020f75 100%); 
+	width: 900px;
+	margin: 0 auto;
+	padding:  20px;
+	text-align: center;
+}
+
+.podval h3, .podval h4{
+	color:darkred;
+	padding: 10px;
+}
