@@ -1,0 +1,180 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background-color: #B7C9F2;
+}
+
+h2{
+	color:#111107 ;
+}
+
+h5{
+	color:#111107 ;
+}
+
+a{
+	color: #F9F07A;
+}
+
+.hat_div{
+	background-color: #9195F6;
+	width: 960px;
+	padding: 20px;
+	margin: 15px auto;
+	border-radius: 15px;
+}
+
+.links_div{
+	text-align: right;
+}
+
+.links_div a{
+	margin: 12px;
+	text-decoration: none;
+}
+
+.body_div{
+	width: 960px;
+	padding: 20px;
+	margin: 15px auto;
+	border-radius: 15px;
+	background-image: linear-gradient(120deg, #a18cd1 0%, #fbc2eb 100%);
+}
+
+.tovars{
+	margin: 0 auto;
+	width: 950px;
+}
+
+.toy{
+	display: inline-block;
+	width: 260px;
+	background-color: #9195F6;
+	padding: 20px 20px 25px 20px;
+	border-radius: 10px;
+	margin: 10px 5px;
+}
+
+.toy img{
+	width: 100%;
+	border-radius: 10px;
+}
+
+.toy h4{
+	font-size: 16pt;
+	color: #111107;
+	margin: 5px 0;
+}
+
+.toy h5{
+	font-size: 14pt;
+	color: #333307;
+	margin: 5px 0 25px 0;
+}
+
+.toy a{
+	background-color: #FB88B4;
+	padding: 10px 15px;
+	border-radius: 8px;
+	text-decoration: none;
+	font-size: 14pt;
+}
+
+.toy a:hover{
+	background-color: #D6589F;
+}
+
+.join_body{
+	width: 960px;
+	height: 320px;
+	margin: 15px auto;
+	padding: 20px;
+	border-radius: 20px;
+	background-image: url("../images/background.jpg");
+	display: block;
+}
+
+.left{
+	width: 40%;
+	float: left;
+	text-align: center;
+}
+
+.left img{
+	margin-top: 20px;
+}
+
+.right{
+	width: 40%;
+	float: right;
+}
+
+.right label{
+	font-size: 16pt;
+	margin: 8px 8px 2px 8px;
+	color: #111107;
+
+}
+
+.right h4{
+	font-size: 18pt;
+	margin: 8px;
+	color: #111107;
+
+}
+
+
+
+.right input{
+	margin: 2px 8px 4px 8px;
+	border-radius: 5px;
+	width: 160px;
+	height: 20px;
+
+}
+
+.check{
+	width: 20px !important;
+	height: 20px !important;
+	margin: 8px 8px 30px 8px !important;
+	border-radius: 5px !important;
+	background-color: #FB88B4;
+
+}
+
+.right a{
+	background-color: #FB88B4;
+	padding: 10px 15px;
+	border-radius: 8px;
+	text-decoration: none;
+	font-size: 14pt;
+}
+
+.footer h4{
+	font-size: 16pt;
+	color: #111107;
+	margin: 20px 20px ;
+}
+
+.footer h5{
+	font-size: 12pt;
+	color: #111107;
+	margin: 20px 20px ;
+}
+
+.footer{
+	background-color: #9384D1;
+	padding: 20px;
+}
+.hat_div h2{
+	font-size: 24px;
+	margin: 8px;
+}
+
+.hat_div h5{
+	font-size: 20px;
+	margin: 4px 8px;
+}
