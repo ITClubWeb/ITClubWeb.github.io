@@ -1,0 +1,97 @@
+.one h1, .one h3{
+	color: DarkMagenta;
+}
+.menu a{
+
+	margin: 5px;
+}
+.one{
+	background-color: PaleTurquoise;
+	border-radius: 15px;
+	width: 940px;
+	margin: auto;
+	padding: 20px;
+}
+.menu{
+	text-align: right;
+}
+.two{
+	width: 980px;
+	margin: 30px auto;
+	padding: 10px;
+
+}
+
+.golem{
+	width: 480px;
+	height: 500px;
+	background-color: CornflowerBlue;
+	border-radius: 50px;
+	display: inline-block;
+	float: left;
+}
+.plaer{
+	width: 480px;
+	height: 500px;
+	background-color: SlateBlue;
+	border-radius: 50px;
+	color: Silver;
+	float: right;
+}
+.plaer h2{
+	width: 80%;
+	margin: 60px auto;
+	font-size: 32pt;
+	text-align: justify;
+}
+.dragon{
+	width: 1000px;
+	margin: 30px auto;
+	padding-top: 30px;
+	display: flex;
+
+}
+
+.world{
+
+}
+
+.cart{
+	background-color: Gainsboro;
+	width: 260px;
+	display: inline-block;
+	margin: 15px;
+	padding: 20px;
+	border-radius: 20px;
+	padding-bottom: 28px;
+}
+
+.cart img{
+	width: 100%;
+	border-radius: 20px;
+}
+
+.cart a{
+	text-decoration: none;
+	background-color: DarkGrey;
+	padding: 10px 20px;
+	border-radius: 5px;
+	color: DimGrey;
+}
+
+.cart a:hover{
+	background-color: DimGrey;
+	color: snow;
+}
+.cart p{
+	font-size: 16pt;
+	margin-bottom: 24px;
+}
+.foot{
+	background-color: silver;
+	margin: auto;
+	width: 1000px;
+	text-align: center;
+	padding: 20px;
+	border-radius: 15px;
+}
