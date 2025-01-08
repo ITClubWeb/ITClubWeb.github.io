@@ -1,0 +1,238 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background-image: url("../img/bgc.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: 0 -500px;
+}
+
+body::before{
+	content: "";
+	background-color: rgba(218, 190, 57, 0.5);
+	z-index: -1;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 500px;
+}
+
+.jt-search{
+	background-color: #e8cc47;
+	border-color: #574434;
+	border-radius: 10px 0 0 10px;
+	border-right: none;
+}
+
+.jt-search-btn{
+	background-color: #2c3c28;
+	border-color: #574434;
+	border-radius: 0 10px 10px 0;
+	color: #aac48d;
+}
+
+.jt-bg-menu{
+	background-color: #9fc12f;
+}
+
+.jt-menu-text a{
+	color: #f1f4f2;
+	font-weight: 500;
+	font-size: 16pt;
+}
+
+.jt-bg-card1-1{
+	background-image: url("../img/menu2.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 250px;
+	text-align: center;
+}
+
+.jt-bg-card1-1 h3{
+	font-size: 36pt;
+	display: inline-block;
+	color: #f1f4f2;
+	line-height: 220px;
+	margin: 0 30px;
+	font-weight: 700;
+}
+
+.jt-card1-1-btn{
+	padding: 10px 20px;
+	background-color: #9fc12f;
+	font-size: 32pt;
+	color: #f1f4f2;
+	transition: all 0.5s;
+}
+
+.jt-card1-1-btn:hover{
+	background-color: #388409;	
+}
+
+.jt-bg-card1-2{
+	background-image: url("../img/menu1.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 250px;
+	text-align: center;
+}
+
+.jt-bg-card1-2 h3{
+	font-size: 36pt;
+	color: #f1f4f2;
+	padding-top: 50px;
+	font-weight: 700;
+}
+
+.jt-card1-2-btn{
+	display: inline-block;
+	text-decoration: none;
+}
+
+.jt-card1-2-btn p{
+	padding: 10px 20px;
+	font-size: 18pt;
+	color: #f1f4f2;
+	background-color: #e8cc47;
+	display: inline-block;
+	transition: all 0.5s;
+}
+
+.jt-card1-2-btn i{
+	padding: 10px 18px;
+	font-size: 18pt;
+	color: #f1f4f2;
+	background-color: #2c3c28;
+	display: inline-block;
+}
+
+.jt-card1-2-btn:hover p{
+	background-color: #baba46;
+}
+
+.jt-bg-card2-1{
+	background-color: #e1d453;
+	height: 150px;
+	text-align: center;
+}
+
+.jt-bg-card2-1 a{
+	color: #f1f4f2;
+ 	text-decoration: none;
+ 	
+}
+
+.jt-icon{
+	display: inline-block;
+	font-size: 26pt;
+	height: 80px;
+	width: 80px;
+	padding-top: 12px;
+	border-radius: 50%;
+}
+
+.jt-icon-1{
+	background-color: #759a34;
+}
+
+.jt-icon-2{
+	background-color: #111506;
+}
+
+.jt-icon-3{
+	background-color: #e1d453;
+}
+
+.jt-card2-1{
+	display: inline-block;
+	margin-left: 20px;
+	margin-top: 50px;
+}
+
+.jt-bg-card2-2{
+	background-color: #759a34;
+	height: 150px;
+	text-align: center;
+}
+
+.jt-bg-card2-2 a{
+	color: #f1f4f2;
+ 	text-decoration: none;
+}
+
+.jt-bg-card2-3{
+	background-color: #111506;
+	height: 150px;
+	text-align: center;
+}
+
+.jt-bg-card2-3 a{
+	color: #f1f4f2;
+ 	text-decoration: none;
+}
+
+.jt-title-card{
+	background-color: #e1d453;
+	color: #f1f4f2;
+}
+
+.jt-single-card{
+	border-radius: 0;
+}
+
+.jt-single-card img{
+	background-color: #ecf8cb;
+	border-radius: 0;
+}
+
+.jt-price-card{
+	color: #97bb35;
+}
+
+.jt-rating-card{
+	color: #97bb35;
+}
+
+.jt-foot{
+	background-color: #2c3c28;
+}
+
+.jt-foot h3{
+	color: #e1d453;
+}
+
+.jt-foot p{
+	color: #f1f4f2;
+	font-size: 14pt;
+	display: inline-block;
+	margin-left: 14px;
+} 
+
+.jt-foot i{
+	font-size: 18pt;
+	color: #e1d453;
+}
+
+.jt-set{
+	width: 50px;
+	height: 50px;
+	background-color: #e1d453;
+	padding: 10px;
+	margin: 5px;
+	transition: all 0.5s;
+}
+
+.jt-set > i{
+	color: #2c3c28;
+	margin-top: 10px;
+}
+
+.jt-set:hover{
+	background-color: #759a34;
+}

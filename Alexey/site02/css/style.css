@@ -1,0 +1,110 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: gray;
+	background-image: linear-gradient(0deg, #29323c 0%, #485563 100%);
+}
+
+.beg-left{
+	background-image: url("../image/Rest.jpeg");
+	background-size: cover;
+	height: 500px;
+}
+
+.beg-right{
+	background: radial-gradient(circle at 0px 250px, #db002a 0px, rgba(0, 0, 0, 0) 250px);
+}
+
+.miso-logo{
+	color: snow;
+	font-size: 100pt;
+	margin-top: 150px;
+	margin-left: -155px;
+}
+
+.miso-logo-img{
+	width: 300px;
+	margin-top: 110px;
+	margin-left: -162px;
+}
+
+.miso-panel{
+	background: -webkit-linear-gradient(90deg,#1f2937,#293647,#233043); /* Chrome 10-25, Safari 5.1-6 */ 
+	background: linear-gradient(90deg,#1f2937,#293647,#233043); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.miso-panel-text{
+	color: white;
+}
+
+.miso-panel-text:hover, .miso-panel-text:focus{
+	color: #ffc107;
+}
+
+.img-china-box{
+	padding: 20px;	
+}
+
+.img-china > img{
+	width: 100%;
+}
+
+.img-middle{
+	margin-top: -30px;
+}
+
+.kontakt p{
+	color: snow;
+	font-size: 16pt;
+	display: inline-block;
+	margin-left: 15px;
+}
+
+.kontakt i{
+	font-size: 18pt;
+	color: #ffc107;
+}
+
+.socseti a{
+	width: 60px;
+	height: 60px;
+	padding: 16px 14px 12px 14px;
+	background-color: #ffc107;
+	border-radius: 50%;
+	margin: 8px;
+	transition: all 0.5s;
+}
+
+.socseti a:hover{
+	background-color: #be8f04;
+}
+
+.socseti i{
+	color: black;
+	font-size: 16pt;
+}
+
+.miso-logo-img-footer{
+	width: 200px;
+}
+
+.miso-footer{
+	border-top: 5px solid #ffc107;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

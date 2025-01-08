@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Ресторан "Yakuza"</title>
+</head>
+<body>
+
+
+<!--Начало шапки-->
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-6 beg-left">
+			</div>
+			<div class="col-6 beg-right ">
+			<!--<h1 class="miso-logo">MISO</h1>-->
+			<img src="image/logo.png" class="miso-logo-img">
+			</div>
+		</div>
+	</div>
+	<nav class="navbar navbar-expand-lg miso-panel">
+	  <div class="container-fluid">
+	    <a class="navbar-brand miso-panel-text" href="#">Yakuza</a>
+	    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	      <span class="navbar-toggler-icon"></span>
+	    </button>
+	    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+	        <li class="nav-item">
+	          <a class="nav-link miso-panel-text" aria-current="page" href="#">Главная</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link miso-panel-text" href="#">Новинки</a>
+	        </li>
+	        <li class="nav-item dropdown">
+	          <a class="nav-link dropdown-toggle miso-panel-text" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+	            Кухня
+	          </a>
+	          <ul class="dropdown-menu">
+	            <li><a class="dropdown-item" href="ChinaKitchen.html">Китайская</a></li>
+	            <li><a class="dropdown-item" href="JapanKitchen.html">Японская</a></li>
+	            <li><a class="dropdown-item" href="KoreanKitchen.html">Корейская</a></li>
+	          </ul>
+	        </li>
+	      </ul>
+	      <form class="d-flex" role="search">
+	        <input class="form-control me-2" type="search" placeholder="Поиск..." aria-label="Search">
+	        <button class="btn btn-warning" type="submit">Найти</button>
+	      </form>
+	    </div>
+	  </div>
+	</nav>
+<!--Конец шапки-->
+
+
+
+<!--Начало кухни-->
+	<div class="container py-5">
+		<div class="row">
+			<div class="col-6">
+				<div class="row">
+					<div class="col-12">
+						<h1 class="text-warning mb-3">Китайская кухня</h1>
+					</div>
+				</div>
+				<div class="row">
+					<div id="kitay_carousel" class="carousel slide" data-bs-ride="carousel">
+					  <div class="carousel-inner">
+					    <div class="carousel-item active">
+					    	<div class="row">
+					    		<div class="col-12">
+					    			<h3 class="text-light">Утка по-пекински</h3>
+					    			<p class="text-light my-4">Утка по-пекински — одно из самых известных блюд китайской кухни. Представляет собой натёртую мёдом утку, со шкуркой, отслоенной путём нагнетания под кожу воздуха, запечённую в специальной печи на дровах из вишнёвого дерева. Процесс подготовки и жарки занимает около двух суток.</p>
+					    		</div>
+					    	</div>
+					    	<div class="row">
+					    		<div class="col-4">
+					    			<img src="image/kitay1eda.jpeg" class="w-100">
+					    		</div>
+					    		<div class="col-4">
+					    			<img src="image/ytka2.jpeg" class="w-100">
+					    		</div>
+					    		<div class="col-4">
+					    			<img src="image/ytka3.jpeg" class="w-100">
+					    		</div>
+					    	</div>
+					    </div>
+					    <div class="carousel-item">
+					      <div class="row">
+					    		<div class="col-12">
+					    			<h3 class="text-light">Карп в маринаде</h3>
+					    			<p class="text-light my-4">Китайский карп в маринаде — это блюдо, похожее на свинину в кисло-сладком соусе, но вместо мяса в нём используют рыбу, преимущественно карпа. Рыба готовится и подаётся на стол целиком, а чтобы её было удобнее есть палочками, делаются специальные надрезы. </p>
+					    		</div>
+					    	</div>
+					    	<div class="row">
+					    		<div class="col-4">
+					    			<img src="image/kitay2eda.jpeg" class="w-100">
+					    		</div>
+					    		<div class="col-4">
+					    			<img src="image/karp2.webp" class="w-100">
+					    		</div>
+					    		<div class="col-4">
+					    			<img src="image/karp3.jpeg" class="w-100">
+					    		</div>
+					    	</div>
+					    </div>
+					    <div class="carousel-item">
+					      <div class="row">
+					    		<div class="col-12">
+					    			<h3 class="text-light">Жареная лапша</h3>
+					    			<p class="text-light my-4">Жареная лапша — это блюдо, которое можно подавать в качестве гарнира. Для приготовления можно использовать любую лапшу: яичную, гречневую, рисовую или стеклянную (фунчозу).</p>
+					    		</div>
+					    	</div>
+					    	<div class="row">
+					    		<div class="col-4">
+					    			<img src="image/kitay3eda.jpeg" class="w-100">
+					    		</div>
+					    		<div class="col-4">
+					    			<img src="image/lapsha2.jpeg" class="w-100">
+					    		</div>
+					    		<div class="col-4">
+					    			<img src="image/lapsha3.jpeg" class="w-100">
+					    		</div>
+					    	</div>
+					    </div>
+					  </div>
+					  <button class="carousel-control-prev" type="button" data-bs-target="#kitay_carousel" data-bs-slide="prev">
+					    <span class="visually-hidden">Previous</span>
+					  </button>
+					  <button class="carousel-control-next" type="button" data-bs-target="#kitay_carousel" data-bs-slide="next">
+					    <span class="visually-hidden">Next</span>
+					  </button>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="col-6 img-china-box">
+				<div class="row">
+					<div class="col-4 img-china">
+						<img src="image/china01.png">
+					</div>
+					<div class="col-4 img-china img-middle">
+						<img src="image/china02.png">
+					</div>
+					<div class="col-4 img-china">
+						<img src="image/china03.png">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+	<div class="container py-5">
+		<div class="row">
+
+			<div class="col-6 img-china-box">
+				<div class="row">
+					<div class="col-4 img-china">
+						<img src="image/jap_01.png">
+					</div>
+					<div class="col-4 img-china img-middle">
+						<img src="image/jap_02.png">
+					</div>
+					<div class="col-4 img-china">
+						<img src="image/jap_03.png">
+					</div>
+				</div>
+			</div>
+
+			<div class="col-6">
+				<div class="row">
+					<div class="col-12">
+						<h1 class="text-warning mb-3">Японская кухня</h1>
+					</div>
+				</div>
+				<div class="row">
+					<div id="japan_carousel" class="carousel slide" data-bs-ride="carousel">
+					  <div class="carousel-inner">
+					    <div class="carousel-item active">
+					    	<div class="row">
+					    		<div class="col-12">
+					    			<h3 class="text-light">Суши</h3>
+					    			<p class="text-light my-4">Суши — традиционное блюдо японской кухни, приготовленное из риса с добавлением красного мяса, яиц, уксусной приправы, морепродуктов и других ингредиентов. Выглядят суши как рис в виде вытянутого комочка с небольшим пластом филе рыбы сверху.</p>
+					    		</div>
+					    	</div>
+					    	<div class="row">
+					    		<div class="col-4">
+					    			<img src="image/yapon1.jpeg" class="w-100">
+					    		</div>
+					    		<div class="col-4">
+					    			<img src="image/sushy2.jpeg" class="w-100">
+					    		</div>
+					    		<div class="col-4">
+					    			<img src="image/sushy3.webp" class="w-100">
+					    		</div>
+					    	</div>
+					    </div>
+					    <div class="carousel-item">
+					      <div class="row">
+					    		<div class="col-12">
+					    			<h3 class="text-light">Рамэн</h3>
+					    			<p class="text-light my-4">Рамэн — японское блюдо с пшеничной лапшой. Представляет собой недорогое блюдо быстрого питания, обладающее большой энергетической ценностью. Считается блюдом японской, китайской и корейской кухонь.</p>
+					    		</div>
+					    	</div>
+					    	<div class="row">
+					    		<div class="col-4">
+					    			<img src="image/yapon2.jpeg" class="w-100">
+					    		</div>
+					    		<div class="col-4">
+					    			<img src="image/ramen2.jpeg" class="w-100">
+					    		</div>
+					    		<div class="col-4">
+					    			<img src="image/ramen3.jpeg" class="w-100">
+					    		</div>
+					    	</div>
+					    </div>
+					    <div class="carousel-item">
+					      <div class="row">
+					    		<div class="col-12">
+					    			<h3 class="text-light">Удон</h3>
+					    			<p class="text-light my-4">Удон — это традиционная японская лапша из пшеничной муки. Она обычно толще обычной лапши и имеет мягкую, слегка тягучую текстуру, которая отлично впитывает бульоны и соусы. Удон, как правило, подаётся как суп с лапшой в бульоне. Его можно употреблять в пищу как горячим, так и холодным.</p>
+					    		</div>
+					    	</div>
+					    	<div class="row">
+					    		<div class="col-4">
+					    			<img src="image/yapon3.jpeg" class="w-100">
+					    		</div>
+					    		<div class="col-4">
+					    			<img src="image/ydon2.webp" class="w-100">
+					    		</div>
+					    		<div class="col-4">
+					    			<img src="image/ydon3.webp" class="w-100">
+					    		</div>
+					    	</div>
+					    </div>
+					  </div>
+					  <button class="carousel-control-prev" type="button" data-bs-target="#japan_carousel" data-bs-slide="prev">
+					    <span class="visually-hidden">Previous</span>
+					  </button>
+					  <button class="carousel-control-next" type="button" data-bs-target="#japan_carousel" data-bs-slide="next">
+					    <span class="visually-hidden">Next</span>
+					  </button>
+					</div>
+				</div>
+			</div>
+
+
+			
+		</div>
+	</div>
+
+
+
+
+
+
+
+	<div class="container py-5">
+		<div class="row">
+			<div class="col-6">
+				<div class="row">
+					<div class="col-12">
+						<h1 class="text-warning mb-3">Корейская кухня</h1>
+					</div>
+				</div>
+				<div class="row">
+					<div id="korea_carousel" class="carousel slide" data-bs-ride="carousel">
+					  <div class="carousel-inner">
+					    <div class="carousel-item active">
+					    	<div class="row">
+					    		<div class="col-12">
+					    			<h3 class="text-light">Пад-тай</h3>
+					    			<p class="text-light my-4">Пад-тай — классическое блюдо тайской кухни из обжаренной рисовой вермишели с овощами и ароматным соусом. Блюдо представляет собой сочетание пружинистой лапши, овощей, яиц, мяса или морепродуктов, а также пряных специй и соусов. </p>
+					    		</div>
+					    	</div>
+					    	<div class="row">
+					    		<div class="col-4">
+					    			<img src="image/aziat1.jpeg" class="w-100">
+					    		</div>
+					    		<div class="col-4">
+					    			<img src="image/padtay2.jpeg" class="w-100">
+					    		</div>
+					    		<div class="col-4">
+					    			<img src="image/padtay3.jpeg" class="w-100">
+					    		</div>
+					    	</div>
+					    </div>
+					    <div class="carousel-item">
+					      <div class="row">
+					    		<div class="col-12">
+					    			<h3 class="text-light">Кимчи</h3>
+					    			<p class="text-light my-4">Кимчи — блюдо корейской кухни, представляющее собой остро приправленные ферментированные овощи. Чаще всего это пекинская капуста, но иногда вместо неё используются листья кольраби, редиса, лобы, а также огурцы, баклажаны и прочие овощи.</p>
+					    		</div>
+					    	</div>
+					    	<div class="row">
+					    		<div class="col-4">
+					    			<img src="image/aziat2.jpeg" class="w-100">
+					    		</div>
+					    		<div class="col-4">
+					    			<img src="image/kimchanin2.jpeg" class="w-100">
+					    		</div>
+					    		<div class="col-4">
+					    			<img src="image/kimchanin3.jpeg" class="w-100">
+					    		</div>
+					    	</div>
+					    </div>
+					    <div class="carousel-item">
+					      <div class="row">
+					    		<div class="col-12">
+					    			<h3 class="text-light">Го Хионг</h3>
+					    			<p class="text-light my-4">Го хионг — это китайские жареные спринг-роллы с креветками и овощами.</p>
+					    		</div>
+					    	</div>
+					    	<div class="row">
+					    		<div class="col-4">
+					    			<img src="image/aziat3.jpeg" class="w-100">
+					    		</div>
+					    		<div class="col-4">
+					    			<img src="image/gohiong2.webp" class="w-100">
+					    		</div>
+					    		<div class="col-4">
+					    			<img src="image/gohiong3.jpeg" class="w-100">
+					    		</div>
+					    	</div>
+					    </div>
+					  </div>
+					  <button class="carousel-control-prev" type="button" data-bs-target="#korea_carousel" data-bs-slide="prev">
+					    <span class="visually-hidden">Previous</span>
+					  </button>
+					  <button class="carousel-control-next" type="button" data-bs-target="#korea_carousel" data-bs-slide="next">
+					    <span class="visually-hidden">Next</span>
+					  </button>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="col-6 img-china-box">
+				<div class="row">
+					<div class="col-4 img-china">
+						<img src="image/kor_01.png">
+					</div>
+					<div class="col-4 img-china img-middle">
+						<img src="image/kor_02.png">
+					</div>
+					<div class="col-4 img-china">
+						<img src="image/kor_03.png">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<!--Конец кухни-->
+
+
+
+<!--Начало футера-->
+	<div class="container mt-5 p-5 miso-footer">
+		<div class="row">
+			<div class="col-4">
+				<img src="image/logo.png" class="miso-logo-img-footer">
+			</div>
+			<div class="col-4 kontakt">
+				<h3 class="text-warning mb-3">Контакты</h3>
+				<i class="bi bi-geo-alt-fill"></i><p>ул. Павловская, д.12</p><br>
+				<br>
+				<i class="bi bi-telephone-inbound-fill"></i><p>+7 (963) 735-81-53</p><br>
+				<i class="bi bi-telephone-inbound-fill"></i><p>+7 (913) 220-11-15</p><br>
+				<br>
+				<i class="bi bi-envelope-fill"></i><p>mis0o@gmail.com</p><br>
+			</div>
+			<div class="col-4 socseti">
+				<h3 class="text-warning mb-5">Соцсети</h3>
+				<a href="#"><i class="bi bi-youtube"></i></a>
+				<a href="#"><i class="bi bi-instagram"></i></a>
+				<a href="#"><i class="bi bi-tiktok"></i></a>
+				<a href="#"><i class="bi bi-telegram"></i></a>
+			</div>
+		</div>	
+	</div>
+<!--Конец футера-->
+</body>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/bootstrap.bundle.js"></script>
+</html>
