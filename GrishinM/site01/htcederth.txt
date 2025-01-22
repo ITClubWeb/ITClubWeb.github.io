@@ -1,0 +1,7 @@
+background: -webkit-linear-gradient(133deg,#fc3421,#f2ac0e); /* Chrome 10-25, Safari 5.1-6 */ background: linear-gradient(133deg,#fc3421,#f2ac0e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+background: -webkit-linear-gradient(135deg,#ff4013,#ff6a00,#7b219f); /* Chrome 10-25, Safari 5.1-6 */ background: linear-gradient(135deg,#ff4013,#ff6a00,#7b219f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+background: -webkit-linear-gradient(125deg,#a9d3cc,#929f4f,#c0361a); /* Chrome 10-25, Safari 5.1-6 */ background: linear-gradient(125deg,#a9d3cc,#929f4f,#c0361a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
