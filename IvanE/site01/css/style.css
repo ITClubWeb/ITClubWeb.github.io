@@ -1,0 +1,148 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.num1{
+	width: 900px;
+	margin: 10px auto;
+	background: -webkit-linear-gradient(90deg,#fecb89,#5f2809,#000000); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(90deg,#fecb89,#5f2809,#000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	padding: 23px ;
+	border-radius: 15px;
+}
+.ssualki{
+	margin-left: auto ;
+	width: 400px ;
+
+}
+
+.ssualki a {
+
+	color: SandyBrown;
+	margin: 10px;
+}
+.ad{
+	width: 940px;
+	height: 480px;
+	margin: 20px auto;
+}
+.left-ad{
+	width: 420px;
+	height: 440px;
+	padding: 20px;
+	border-radius: 15px;
+	background-color: #d2864a;
+	float: left;
+}
+.left-ad img{
+	width: 100%;
+	margin-top: 20px;
+}
+.right-ad{
+	width: 420px;
+	height: 440px;
+	padding: 20px;
+	border-radius: 15px;
+	background-color: #78493c; 
+	float: right;
+	text-align: center;
+}
+
+.right-ad h1{
+	color: SandyBrown;
+	margin-top: 30px ;
+}
+.registr{
+	width: 900px;
+	height: 350px;
+	margin: 20px auto;
+	border-radius: 15px;
+	padding: 20px;
+	background: -webkit-linear-gradient(90deg,#ff7518,#000000); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(90deg,#ff7518,#000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.kart{
+	width: 45%;
+	float: left;
+	text-align: center;
+}
+.kart img{
+	margin-top: 20px;
+}
+.log{
+	width: 45%;
+	float: right;
+}
+.log h1{
+	margin-top: 35px;
+	color: #AE67B9;
+}
+.log label{
+	color: #be85c7;
+}
+.log input{
+	margin: 10px 5px;
+}
+.pusk{
+	background: -webkit-linear-gradient(0deg,#a8a3d4,#a08db9,#342360); /* Chrome 10-25, Safari 5.1-6 */ 
+	background: linear-gradient(0deg,#a8a3d4,#a08db9,#342360); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	padding: 15px;
+	border-radius: 10px;
+	color: #273270;
+	font-weight: 600;
+	text-decoration: none;
+	border: 3px solid #be85c7;
+}
+.pusk:hover{
+	background: -webkit-linear-gradient(180deg,#a8a3d4,#a08db9,#342360); /* Chrome 10-25, Safari 5.1-6 */ 
+	background: linear-gradient(180deg,#a8a3d4,#a08db9,#342360); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.kartochka{
+	width: 900px;
+	margin: 20px auto;
+	border-radius: 15px;
+	padding: 20px;
+	background: -webkit-linear-gradient(90deg,#4c3b30,#271409,#502107); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(90deg,#4c3b30,#271409,#502107); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}	
+.phone{
+	display: inline-block;
+	width: 250px;
+	background: -webkit-linear-gradient(90deg,#dceae9,#504f4e); /* Chrome 10-25, Safari 5.1-6 */ 
+	background: linear-gradient(90deg,#dceae9,#504f4e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+	padding:15px 15px 30px 15px;
+	border-radius: 15px;
+	margin: 8px;
+}
+.phone img{
+	width: 100%;
+	margin-bottom: 10px;
+}
+.phone h4{
+	font-size: 10pt;
+}
+.phone h3{
+	font-size: 10pt;
+	margin-bottom: 20px;
+}
+.phone a{
+	background: -webkit-linear-gradient(90deg,#b39ce1,#9d6a7e,#5b4944); /* Chrome 10-25, Safari 5.1-6 */ 
+	background: linear-gradient(90deg,#b39ce1,#9d6a7e,#5b4944); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	padding: 10px 14px;
+	border-radius: 8px;
+	border: 2px hotpink solid;
+	text-decoration: none;
+	color:midnightblue;
+
+}
+.footer{
+	width: 900px;
+	padding: 20px;
+	margin: 10px auto;
+    background: -webkit-linear-gradient(90deg,#000000,#420000,#914f2b,#ff8800,#ffea00); /* Chrome 10-25, Safari 5.1-6 */ 
+	background: linear-gradient(90deg,#000000,#420000,#914f2b,#ff8800,#ffea00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	color: #ffa500;
+	border-radius: 15px;
+}
