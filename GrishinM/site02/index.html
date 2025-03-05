@@ -1,0 +1,291 @@
+<html>
+	<head>
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<title>Turbo-kino</title>
+	</head>
+	<body>
+
+		<!-- начало шапка -->
+		<nav class="navbar navbar-expand-lg bg-body-tertiary">
+		  <div class="container-fluid">
+		    <a class="navbar-brand" href="#">
+		    	<img src="image/logo.png" width="24">
+		    	Turbo-kino
+			</a>
+
+		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		      <span class="navbar-toggler-icon"></span>
+		    </button>
+		    <div class="collapse navbar-collapse" id="navbarNav">
+		      <ul class="navbar-nav">
+		        <li class="nav-item">
+		          <a class="nav-link active" aria-current="page" href="#">Главная</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link" href="#">Каталог</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link" href="#">Аккаунт</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link disabled" aria-disabled="true">Поделиться</a>
+		        </li>
+		      </ul>
+		    </div>
+		  </div>
+		</nav>
+		<!-- конец шапка -->
+
+
+
+		<!-- начало регистрация -->
+		<div class="container mt-5">
+			<div class="row">
+				<div class="col-6">
+					<img src="image/block.jpg" class="ragister">
+				</div>
+
+				<div class="col-6">
+					<h1>Регистрация</h1>
+					<form class="mt-5">
+					  <div class="mb-3">
+					    <label for="exampleInputEmail1" class="form-label">Введите почту</label>
+					    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+					  </div>
+					  <div class="mb-3">
+					    <label for="exampleInputPassword1" class="form-label">Придумайте пароль</label>
+					    <input type="password" class="form-control" id="exampleInputPassword1">
+					  </div>
+					  <div class="mb-3 form-check">
+					    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+					    <label class="form-check-label" for="exampleCheck1">запомнить меня</label>
+					  </div>
+					  <button type="submit" class="btn btn-primary">Зарегистрироваться</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<!-- конец регистрация -->
+
+
+
+		<!-- начало карточки 1 -->
+		<div class="container mt-5">
+			<div class="row">
+				<div class="col-12">
+					<h1>Новинки!</h1>
+				</div>
+			</div>
+			<div class="row mt-5">
+				<div class="col-3">
+					<div class="card">
+					  <img src="image/poster in.png" class="card-img-top" alt="Фильм 'Гадкий Я 3'">
+					  <div class="card-body">
+					    <h5 class="card-title">Гадкий Я 3</h5>
+					    <p class="card-text">Рейтинг:
+					    	<b><span class="r-hide">8.5</span>/10</b>
+					    </p>
+					    <a href="#" class="btn btn-primary">Смотреть</a>
+					  </div>
+					</div>
+				</div>
+
+				<div class="col-3">
+					<div class="card">
+					  <img src="image/ctalingrad.png" class="card-img-top" alt="Фильм 'Сталинград'">
+					  <div class="card-body">
+					    <h5 class="card-title">Сталинград</h5>
+					    <p class="card-text">Рейтинг: 
+					    	<b><span class="r-medium">7.4</span>/10</b>
+					    </p>
+					    <a href="#" class="btn btn-primary">Смотреть</a>
+					  </div>
+					</div>
+				</div>
+
+				<div class="col-3">
+					<div class="card">
+					  <img src="image/vsi mogu.png" class="card-img-top" alt="Фильм 'ВСЕ МОГУ'">
+					  <div class="card-body">
+					    <h5 class="card-title">ВСЕ МОГУ</h5>
+					    <p class="card-text">Рейтинг: 
+					    	<b><span class="r-hide">8.2</span>/10</b>
+					    </p>
+					    <a href="#" class="btn btn-primary">Смотреть</a>
+					  </div>
+					</div>
+				</div>
+
+				<div class="col-3">
+					<div class="card">
+					  <img src="image/deny duraka.png" class="card-img-top" alt="Фильм 'День дурака'">
+					  <div class="card-body">
+					    <h5 class="card-title">День дурака</h5>
+					    <p class="card-text">Рейтинг: 
+					    	<b><span class="r-low">3.5</span>/10</b>
+					    </p>
+					    <a href="#" class="btn btn-primary">Смотреть</a>
+					  </div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- конец карточки 1 -->
+
+
+
+
+		<!-- начало реклама -->
+		<div class="container-fluid my-5 px-0">
+			<div class="row">
+				<div class="col-7 px-0">
+					<img src="image/deny duraka2.png" width="100%">
+				</div>
+				<div class="col-5 local px-0">
+					<h1>День Дурака</h1>
+					<h5>Комедия | Россия</h5>
+					<p>Ванька работает швейцаром в гостинице. Он ненавидит её обеспеченных постояльцев, но при этом мечтает пожить их роскошной жизнью. А пока вынужден жить в машине, купленной в кредит, так как из съёмной квартиры его выгнали за неуплату.</p>
+					<hr>
+					<button type="button" class="btn btn-secondary">Смотреть</button>
+				</div>
+			</div>
+		</div>
+		<!-- конец реклама -->
+
+
+
+		<!-- начало карточки 2 -->
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<h1>Популярное</h1>
+				</div>
+			</div>
+			<div class="row mb-5 mt-5" >
+				<div class="col-3">
+					<div class="card">
+					  <img src="image/poster 2.png" class="card-img-top" alt="Фильм 'Бретская крепость'">
+					  <div class="card-body">
+					    <h5 class="card-title">Бретская крепость</h5>
+					    <p class="card-text">Рейтинг: 
+					    	<b><span class="r-hide">7.8</span>/10</b>
+					    </p>
+					    <a href="#" class="btn btn-primary">Смотреть</a>
+					  </div>
+					</div>
+				</div>
+
+				<div class="col-3">
+					<div class="card">
+					  <img src="image/edinicka.png" class="card-img-top" alt="Фильм 'Еденичка'">
+					  <div class="card-body">
+					    <h5 class="card-title">Единичка</h5>
+					    <p class="card-text">Рейтинг: 
+					    	<b><span class="r-medium">6.3</span>/10</b>
+					    </p>
+					    <a href="#" class="btn btn-primary">Смотреть</a>
+					  </div>
+					</div>
+				</div>
+
+				<div class="col-3">
+					<div class="card">
+					  <img src="image/piratu.png" class="card-img-top" alt="Фильм 'Пираты карибского моря'">
+					  <div class="card-body">
+					    <h5 class="card-title">Пираты карибского моря</h5>
+					    <p class="card-text">Рейтинг: 
+					    	<b><span class="r-hide">8.2</span>/10</b>
+					    </p>
+					    <a href="#" class="btn btn-primary">Смотреть</a>
+					  </div>
+					</div>
+				</div>
+
+				<div class="col-3">
+					<div class="card">
+					  <img src="image/ikipaz.png" class="card-img-top" alt="Фильм 'экипаж'">
+					  <div class="card-body">
+					    <h5 class="card-title">экипаж</h5>
+					    <p class="card-text">Рейтинг: 
+					    	<b><span class="r-medium">6.9</span>/10</b>
+					    </p>
+					    <a href="#" class="btn btn-primary">Смотреть</a>
+					  </div>
+					</div>
+				</div>
+			</div>
+
+
+
+			<div class="row">
+				<div class="col-3">
+					<div class="card">
+					  <img src="image/kak i ctal russkim.png" class="card-img-top" alt="Фильм 'как я стал русским'">
+					  <div class="card-body">
+					    <h5 class="card-title">Kак я стал русским</h5>
+					    <p class="card-text">Рейтинг: 
+					    	<b><span class="r-low">4.9</span>/10</b>
+					    </p>
+					    <a href="#" class="btn btn-primary">Смотреть</a>
+					  </div>
+					</div>
+				</div>
+
+				<div class="col-3">
+					<div class="card">
+					  <img src="image/kto I.png" class="card-img-top" alt="Фильм 'Кто Я?'">
+					  <div class="card-body">
+					    <h5 class="card-title">Кто Я?</h5>
+					    <p class="card-text">Рейтинг: 
+					    	<b><span class="r-hide">8.3</span>/10</b>
+					    </p>
+					    <a href="#" class="btn btn-primary">Смотреть</a>
+					  </div>
+					</div>
+				</div>
+
+				<div class="col-3">
+					<div class="card">
+					  <img src="image/fosar.png" class="card-img-top" alt="Фильм 'Форсаж 7'">
+					  <div class="card-body">
+					    <h5 class="card-title">Форсаж 7</h5>
+					    <p class="card-text">Рейтинг: 
+					    	<b><span class="r-hide">7.1</span>/10</b>
+					    </p>
+					    <a href="#" class="btn btn-primary">Смотреть</a>
+					  </div>
+					</div>
+				</div>
+
+				<div class="col-3">
+					<div class="card">
+					  <img src="image/babushka.png" class="card-img-top" alt="Фильм 'Бабушка легкого поведения'">
+					  <div class="card-body">
+					    <h5 class="card-title">Бабушка легкого поведения</h5>
+					    <p class="card-text">Рейтинг: 
+					    	<b><span class="r-low">4.2</span>/10</b>
+					    </p>
+					    <a href="#" class="btn btn-primary">Смотреть</a>
+					  </div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- конец карточки 2 -->
+
+
+
+		<!-- начало footer -->
+		<div class="container mt-5">
+			<div class="row">
+				<div class="col-12 dom">
+					<h4>Все права защищены</h4>
+					<h5>г. Москва, т. +7 (563) 844-19-38</h5>
+				</div>
+			</div>
+		</div>
+			<!-- конец footer -->
+	</body>
+</html>

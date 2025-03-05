@@ -1,0 +1,53 @@
+body{
+	background: -webkit-linear-gradient(90deg,#84a94d,#60d69b,#21fff8); /* Chrome 10-25, Safari 5.1-6 */ 
+	background: linear-gradient(90deg,#84a94d,#60d69b,#21fff8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.ragister{
+	border-radius: 26px;
+	width: 100%;
+}
+
+label{
+	font-weight: 700;
+}
+
+.r-hide{
+	color: green;
+}
+
+.r-medium{
+	color: orange;
+}
+
+.r-low{
+	color: red;
+}
+
+.local{
+	background-color: #0D3E3D;
+	padding: 40px !important;
+}
+.local h1{
+	color: white;
+}
+.local h5{
+	color: #a5c0bf;
+}
+.local p{
+	color: white;
+}
+
+.dom{
+	background-color: #666666;
+	text-align: center;
+	padding: 60px;
+}
+
+.dom h4{
+	color: #B3B3B3;
+}
+
+.dom h5{
+	color: white;
+}
