@@ -1,0 +1,268 @@
+body{
+	background: rgb(11,23,37);
+	background: linear-gradient(160deg, rgba(11,23,37,1) 0%, rgba(16,38,59,1) 35%, rgba(18,46,67,1) 100%);
+}
+
+.perf-hat{
+	font-family: "Dancing Script";
+	font-size: 20pt;
+	color: #e6c974;
+}
+
+.perf-formant li a{
+	color: white;
+}
+
+.perf-formant li a:hover{
+	color: #e6c974;
+}
+
+.perf-poick input {
+	border-radius: 40px;
+}
+
+.perf-poick button{
+	border-radius: 40px;
+}
+
+.perf-card{
+	border-radius: 40px;
+	background: rgb(46,112,144);
+	background: linear-gradient(180deg, rgba(46,112,144,1) 0%, rgba(17,44,63,1) 100%);
+	width: 100%;
+	text-align: center;
+	padding: 20px;
+	border: 2px #194d66 solid;
+	box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.5);
+	transition: 0.5s all;
+}
+
+.perf-card img{
+	width: 70%;
+	transition: 0.5s all;
+}
+
+.perf-card-text{
+	margin: 20px 0;
+
+}
+
+.perf-card-text h5{
+	color: white;
+}
+
+.perf-card-text h4{
+	color: #e6c974;
+	font-family: "Dancing Script";
+}
+
+.perf-card-link{
+	text-decoration: none;
+}
+
+.perf-card-link:hover .perf-card{
+	box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.85);
+}
+
+.perf-card-link:hover .perf-card img{
+	filter: drop-shadow(0px 0px 15px rgba(232,195,125,0.7));
+}
+
+.perf-banner {
+	width: 100%;
+	border-radius: 512px 0 0 512px;
+}
+
+.perf-list{
+	background-color: rgba(200, 230, 255, 0.2);
+	width: 150%;
+	padding: 100px;
+	border-radius: 0 80px 0 0;
+	transform: translate(0, -50px);
+	backdrop-filter: blur(20px);
+}
+
+.perf-list h2{
+	font-size: 30pt;
+	color: white;
+	font-family: "Dancing Script";
+}
+
+.perf-list h1, .perf-otzuv{
+	color: #e4ce78;
+	font-family: "Dancing Script";
+	font-size: 36pt;
+}
+
+.perf-ban{
+	width: 250px;
+	margin: 50px 100px;
+	padding-left: 10px;
+	border-left: 2px solid white;
+}
+
+.perf-ban p{
+	color: white;
+	font-size: 14pt;
+}
+
+.perf-carousel{
+	border-radius: 40px;
+	background-color: #0e1b24;
+}
+
+.perf-otzuv-text{
+	border-radius: 40px;
+	background: rgb(46,112,144);
+	background: linear-gradient(180deg, rgba(46,112,144,1) 0%, rgba(17,44,63,1) 100%);
+	width: 100%;
+	color: #f3f6f8;
+	padding: 30px 50px;
+}
+
+.perf-otzuv-text p{
+	margin-top: 10px;
+}
+
+.perf-otzuv-user{
+	margin-left: 50px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	display: inline-flex;
+}
+
+.perf-otzuv-user img{
+	border-radius: 50px;
+	width: 70px;
+	margin-right: 20px;
+}
+
+.perf-otzuv-user h3{
+	color: #f3f6f8;
+	font-size: 18pt;
+	margin-top: 15px;
+}
+
+.perf-stars{
+	color: #e6c974;
+}
+
+.perf-text-rasskaz{
+	color: #e6c974;
+	font-family: "Dancing Script";
+	font-size: 36pt;
+	text-align: center;
+}
+
+.perf-img-rasskaz{
+	text-align: center;
+}
+
+.perf-img-rasskaz img{
+	width: 80%;
+
+}
+
+.perf-zapax-left p{
+	color: white;
+	text-align: right;
+	margin: 20px 0;
+}
+
+.perf-zapax-right p{
+	color: white;
+	text-align: left;
+	margin: 20px 0;
+}
+
+.perf-foto-left{
+	height: 250px;
+	overflow: hidden;
+	text-align: center;
+	margin: 30px 0;
+	border-radius: 30px;
+}
+
+.perf-foto-left img{
+	width: 100%;
+	margin-top: -144px;
+}
+
+.perf-foto-centre{
+	height: 600px;
+	overflow: hidden;
+	text-align: center;
+	margin: 30px;
+	border-radius: 30px;
+}
+
+.perf-foto-centre img{
+	width: 100%;
+	margin-top: -100px;
+}
+
+.perf-foto-right{
+	height: 250px;
+	overflow: hidden;
+	text-align: center;
+	margin: 30px 0;
+	border-radius: 30px;
+}
+
+.perf-foto-right img{
+	width: 100%;
+}
+
+.perf-footer{
+	background-color: #0e1b24;
+	border-radius: 40px 40px 0 0;
+
+}
+
+.perf-footer-one h2{
+	font-family: "Dancing Script";
+	font-size: 20pt;
+	color: white;
+}
+
+.perf-footer-one p{
+	color: white;
+	width: 80%;
+	margin: 20px 0;
+}
+
+.perf-salka i{
+	color: white;
+	font-size: 18pt;
+	margin-right: 18px;
+}
+
+.perf-footer-two li h2{
+	color: #e6c974;
+	font-size: 18pt;
+}
+
+.perf-footer-two li a{
+	color: white;
+	font-size: 14pt;
+	text-decoration: none;
+}
+
+.perf-footer-three h2{
+	color: #e6c974;
+	font-family: "Dancing Script";
+	font-size: 20pt;
+	margin-bottom: 20px;
+}
+
+.perf-footer-three input{
+	border-radius: 30px;
+	padding: 8px 20px;
+	background-color: rgba(0, 0, 0, 0);
+	border: 3px white solid;
+	color: white;
+}
+
+.perf-footer-three input::placeholder{
+	color: white;
+}
