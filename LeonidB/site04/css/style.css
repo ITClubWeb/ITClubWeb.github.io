@@ -1,0 +1,282 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: rgb(13,34,65);
+	background: linear-gradient(60deg, rgba(13,34,65,1) 0%, rgba(22,85,138,1) 25%, rgba(12,53,105,1) 50%, rgba(19,119,185,1) 75%, rgba(31,71,104,1) 100%);
+}
+
+.perf-naz{
+  font-family: "Grechen Fuemen", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  font-size: 20pt;
+}
+
+ul.perf-menu li a{
+	color: white;
+}
+
+.perf-menu-active{
+	color: #E5CB78 !important;
+}
+
+.perf-search input, .perf-search button{
+	border-radius: 40px;
+	background: none;
+	display: inline-flex;
+}
+
+.perf-search button i{
+	margin-right: 8px;
+}
+
+.perf-search input::placeholder{
+	color: white;
+}
+
+.perf-r-img{
+	width: 100%;
+	border-radius: 500px 0 0 500px;
+}
+
+.perf-r-blur{
+	width: 150%;
+	background-color: rgba(255, 255, 255, 0.1);
+	backdrop-filter: blur(20px);
+	padding: 100px;
+	border-radius: 0 200px 0 0;
+	transform: translate(0, 100px);
+}
+
+.perf-r-blur h3{
+	font-family: "Century", serif;
+	font-size: 48pt;
+	color: white;
+	line-height: 50px;
+}
+
+.perf-r-blur h2{
+	font-family: "Grechen Fuemen", serif;
+	font-size: 62pt;
+	color: #E5CB78;
+	margin-top: 50px;
+}
+
+.perf-r-slog{
+	margin-top: 130px;
+	margin-left: 100px;
+	width: 400px;
+
+}
+
+.perf-r-slog p{
+	color: white;
+	font-size: 18pt;
+	border-left: 2px solid white;
+	padding-left: 20px;
+	font-family: "Century", serif;
+}
+
+.perf-r-slog h4{
+	color: #E5CB78;
+	font-size: 36pt;
+	font-family: "Grechen Fuemen", serif;
+	margin-top: 50px;
+}
+
+.perf-cards-title, .perf-refuse-title{
+	font-size: 56pt;
+	color: #E5CB78;
+	font-family: "Grechen Fuemen", serif;
+	text-align: center;
+}
+
+.perf-card{
+	background: rgb(20,55,75);
+	background: linear-gradient(0deg, rgba(20,55,75,1) 0%, rgba(45,110,142,1) 100%);
+	padding: 5px;
+	margin: 10px;
+	text-align: center;
+	height: 400px;
+	border-radius: 20%;
+	-webkit-box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.5);
+	box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.5);
+	transition: all 0.5s;
+
+}
+
+.perf-card img{
+	width: 50%;
+	margin: 30px 0;
+	transition: all 0.5s;
+}
+
+.perf-card h4{
+	color: white;
+	font-size: 14pt;
+	font-family: "Century", serif;
+}
+
+.perf-card h3{
+	color: #E5CB78;
+	font-family: "Grechen Fuemen", serif;
+	font-size: 28pt;
+}
+
+.perf-card-link{
+	text-decoration: none;
+}
+
+.perf-card-link:hover .perf-card{
+	-webkit-box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.7);
+	-moz-box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.7);
+	box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.7);
+}
+
+.perf-card-link:hover .perf-card img{
+	filter: drop-shadow( 0.0rem 0.0rem 0.8rem rgba(229, 204, 120, 1.0));
+}
+
+.perf-refuse{
+	background-color: #0e1b24;
+	border-radius: 40px;
+}
+
+.perf-refuse-block{
+	width: 90%;
+	margin: 20px auto;
+}
+
+.perf-refuse-ot{
+	background: rgb(20,55,75);
+	background: linear-gradient(0deg, rgba(20,55,75,1) 0%, rgba(45,110,142,1) 100%);
+	padding: 30px;
+	border-radius: 40px;
+}
+
+.perf-refuse-star i{
+	color: #E5CB78;
+	font-size: 16pt;
+	margin-right: 10px;
+}
+
+.perf-refuse-ot p{
+	color: white;
+	font-size: 14pt;
+	font-family: "Century", serif;
+	margin-top: 10px;
+}
+
+.perf-refuse-av{
+	margin-top: 10px;
+	padding: 20px;
+}
+
+.perf-refuse-av img{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+
+.perf-refuse-av h4{
+	color: white;
+	font-size: 18pt;
+	font-family: "Century", serif;
+	margin-top: 10px;
+}
+
+.perf-rec-2-text-left, .perf-rec-2-text-right{
+	color: white;
+	font-family: "Century", serif;
+}
+
+.perf-rec2-text-left, .perf-rec2-text-right{
+	color: white;
+	font-size: 12pt;
+	font-family: "Century", serif;
+	margin-top: 10px;
+}
+
+.perf-rec2-text-left, .perf-rec-2-text-left{
+	text-align: right;
+}
+
+.perf-rec2-img{
+	text-align: center;
+}
+
+.perf-rec2-img img{
+	width: 80%;
+}
+
+.perf-ph img{
+	width: 90%;
+	border-radius: 40px;
+}
+
+.perf-ph{
+	text-align: center;
+}
+
+.perf-footer{
+	background-color: #0e1b24;
+	border-radius: 40px 40px 0 0;
+}
+
+.perf-footer-col1 h2{
+	font-family: "Grechen Fuemen", serif;
+	color: white;
+	font-size: 30pt;
+}
+
+.perf-footer-col1 p{
+	color: white;
+	font-size: 14pt;
+	font-family: "Century", serif;
+	width: 90%;
+	margin-top: 20px;
+}
+
+.perf-footer-icon a{
+	text-decoration: none;
+	color: white;
+	font-size: 16pt;
+	margin-right: 20px;
+	transition: all 0.3s;
+}
+
+.perf-footer-icon a:hover{
+	color: #E5CB78;
+}
+
+.perf-footer-col2 h3, .perf-footer-col4 h3{
+	font-family: "Grechen Fuemen", serif;
+	color: #E5CB78;
+	font-size: 22pt;
+}
+
+.perf-footer-col2 ul{
+	list-style-type: none;
+}
+
+.perf-footer-col2 ul li{
+	margin-left: -25px;
+	margin-top: 20px;
+}
+
+.perf-footer-col2 ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 14pt;
+	font-family: "Century", serif;
+	transition: all 0.3s;
+}
+
+.perf-footer-col2 ul li a:hover{
+	color: #E5CB78;
+}

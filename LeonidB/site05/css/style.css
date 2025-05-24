@@ -1,0 +1,567 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background-color: #050017;
+}
+
+.gs-menu{
+	background-color: rgba(0, 0, 0, 0.6);
+	background-image: url("../img/img.png");
+	background-blend-mode: hue;
+	background-size: cover;
+}
+
+.gs-brand{
+	color: white;
+	font-family: "Audiowide", sans-serif;
+	font-size: 24pt;
+}
+
+.gs-store{
+	color: #7a05ca;
+}
+
+.gs-menu-home li a{
+	color: white;
+	font-size: 14pt;
+	text-transform: uppercase;
+	margin-right: 10px;
+}
+
+.gs-menu-home li a:hover{
+	color: #7a05ca;
+}
+
+.gs-right-menu a{
+	color: white;
+	font-size: 16pt;
+	margin: 10px 20px;
+	transition: all 0.2s;
+}
+
+.gs-right-menu a:hover{
+	color: #7a05ca;
+}
+
+.gs-right-menu button{
+	border-radius: 84% 16% 90% 10% / 0% 84% 16% 100% ;
+	height: 50px;
+	padding: 0 30px;
+	margin: 0 10px;
+	color: white;
+	font-size: 14pt;
+	font-family: "Goldman", sans-serif;
+	font-weight: 700;
+}
+
+.gs-btn-sub{
+	background-color: #14074C;
+}
+
+.gs-btn-sub:hover{
+	background-color: #201648;
+	color: white;
+}
+
+.gs-btn-sib{
+	background-color: #7a05ca;
+}
+
+.gs-btn-sib:hover{
+	background-color: #564971;
+	color: white;
+}
+
+.gs-menu-sl{
+	text-align: center;
+	padding-bottom: 100px;
+	min-height: 520px;
+}
+
+.gs-menu-sl h2{
+	font-size: 52pt;
+	color: white;
+	font-family: "Audiowide", sans-serif;
+	margin-top: 200px;
+}
+
+.gs-menu-sl p{
+	color: white;
+	font-size: 18pt;
+	width: 60%;
+	margin: 20px auto;
+
+}
+
+.gs-menu-sl a{
+	border-radius: 84% 16% 90% 10% / 0% 84% 16% 100% ;
+	height: 50px;
+	padding: 10px 30px;
+	margin: 50px 20px;
+	color: white;
+	font-size: 14pt;
+	font-family: "Goldman", sans-serif;
+	font-weight: 700;
+}
+
+.gs-sl-sub{
+	background-color: #070328;
+}
+
+.gs-sl-sub:hover{
+	background-color: #201648;
+	color: white;
+}
+
+
+.gs-sl-sib{
+	background-color: #14074C;
+}
+
+.gs-sl-sib:hover{
+	background-color: #564971;
+	color: white;
+}
+
+.gs-rec-title{
+	color: white;
+	font-size: 28pt;
+	font-family: "Audiowide", sans-serif;
+}
+
+.gs-rec-title span{
+	color: #7a05ca;
+}
+
+.gs-rec-sub{
+	background-color: #7a05ca;
+	border-radius: 84% 16% 90% 10% / 0% 84% 16% 100% ;
+	height: 50px;
+	padding: 10px 30px;
+	color: white;
+	font-size: 14pt;
+	font-family: "Goldman", sans-serif;
+	font-weight: 700;
+}
+
+.gs-rec-sub:hover{
+	background-color: #564971;
+	color: white;
+}
+
+.gs-rec-sib{
+	background-color: #14074C;
+	border-radius: 84% 16% 90% 10% / 0% 84% 16% 100% ;
+	height: 50px;
+	padding: 10px 30px;
+	color: white;
+	font-size: 14pt;
+	font-family: "Goldman", sans-serif;
+	font-weight: 700;
+}
+
+.gs-rec-sib:hover{
+	background-color: #564971;
+	color: white;
+}
+
+.gs-rec-text p{
+	color: white;
+	font-size: 14pt;
+}
+
+.gs-rec-text p span{
+	color: #7a05ca;
+}
+
+.gs-rec-text h4{
+	color: white;
+	font-size: 26pt;
+}
+
+.gs-rec-star i{
+	color: gold;
+	font-size: 16pt;
+	margin-right: 5px;
+}
+
+.gs-rec-text h5{
+	color: #7a05ca;
+	text-decoration: line-through;
+	font-size: 14pt;
+}
+
+.gs-rec-text h3{
+	color: white;
+	font-size: 28pt;
+}
+
+.gs-gamesl h1{
+	color: white;
+	font-size: 32pt;
+	font-family: "Goldman", sans-serif;
+}
+
+.gs-gamesl span{
+	color: #7a05ca;
+}
+
+.gs-gcard{
+	background-color: #14074C;
+	padding: 16px;
+	border-radius: 20px;
+}
+
+.gs-gcard img{
+	border-radius: 18px;
+}
+
+.gs-gcard h5{
+	font-size: 26pt;
+	color: white;
+}
+
+.gs-gcard p{
+	font-size: 14pt;
+	color: white;
+}
+
+.gs-sale{
+	display: flex;
+	color: white;
+
+}
+
+.gs-sale h5{
+	font-size: 16pt;
+	margin: 7px 10px 0 0;
+	text-decoration: line-through;
+	color: #7a05ca;
+}
+
+.gs-sale h3{
+	font-size: 22pt;
+}
+
+.gs-gcard-dl{
+	border: solid #553575 3px;
+	transition: all 0.5s;
+	color: white;
+	border-radius: 15px;
+}
+
+.gs-gcard-dl:hover{
+	background-color: #553575;
+	color: white;
+}
+
+.gs-gcard-dt{
+	background-color: #7a05ca;
+	transition: all 0.5s;
+	color: white;
+	border-radius: 15px;
+	padding-left: 24px;
+	padding-right: 24px;
+	border: solid #7a05ca 3px;
+	margin: 0 10px;
+}
+
+.gs-gcard-dt:hover{
+	background-color: #553575;
+	color: white;
+}
+
+.gs-gcard-hr{
+	border: solid #7a05ca 3px;
+	transition: all 0.5s;
+	color: white;
+	border-radius: 30px;
+	background-color: #7a05ca;
+	padding: 6px 11px;
+	text-align: center;
+}
+
+.gs-gcard-hr:hover{
+	background-color: #ad0f47;
+	color: black;
+}
+
+.gs-rev{
+	background-color: #09012A;
+}
+
+.gs-rev-img{
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.gs-rev-img img{
+	border-radius: 6% 94% 8% 92% / 79% 21% 79% 21% ;
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+.gs-rev-img h2, h5{
+	color: white;
+}
+
+.gs-rev-icons{
+	margin-top: 30px;
+}
+
+.gs-rev-icons a{
+	background-color: #7a05ca;
+	border-radius: 10px;
+	color: white;
+	font-size: 16pt;
+	padding: 10px 16px;
+	margin: 10px;
+	transition: all 0.3s;
+}
+
+
+.gs-rev-icons a:hover{
+	background-color: #553575;
+	color: black;
+}
+
+.gs-rev-otz{
+	color: white;
+	font-size: 14pt;
+	width: 80%;
+	margin: 100px auto 10px auto;
+}
+
+.gs-rev-star{
+	color: #ad0f47;
+	font-size: 16pt;
+}
+
+.gs-rev-control{
+	font-size: 16pt;
+	color: white;
+}
+
+.gs-rev-sub{
+	background-color: #7a05ca;
+	padding: 10px 20px;
+	margin: 0 20px;
+	color: white;
+	font-size: 16pt;
+}
+
+.gs-rev-sub:hover{
+	background-color: #553575;
+	transition: all 0.3s;
+}
+
+.gs-new{
+	background-image: url("../img/img19.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repit;
+}
+
+.gs-new-info h4{
+	color: #7a05ca;
+	font-family: "Audiowide", sans-serif;
+}
+
+.gs-new-info h1{
+	color: white;
+	font-family: "Audiowide", sans-serif;
+}
+
+.gs-new-info p{
+	color: white;
+	font-size: 14pt;
+}
+
+.gs-new-info h2{
+	color: white;
+	font-size: 24pt;
+}
+
+.gs-new-info span{
+	color: #7a05ca;
+	font-size: 24pt;
+}
+
+.gs-new-timer{
+	display: inline-flex;
+}
+
+.gs-time{
+	width: 130px;
+	text-align: left;
+}
+
+.gs-time h3{
+	background-color: #B140EE;
+	color: white;
+	font-size: 24pt;
+	width: 58px;
+	padding: 10px;
+	transform: skewX(-15deg);
+	margin: 20px auto;
+}
+
+.gs-time h5{
+	margin-left: 30px;
+}
+
+.gs-reg-img{
+	background-image: url("../img/img20.png");
+	border-radius: 6% 94% 8% 92% / 79% 21% 79% 21% ;
+	background-blend-mode: hue;
+	background-color: rgba(0, 0, 0, 0.1);
+	background-size: cover;
+	text-align: center;
+}
+
+.gs-reg-img h2{
+	padding: 100px;
+	color: white;
+	font-size: 72pt;
+	font-family: "Audiowide", sans-serif;
+	line-height: 90px;
+}
+
+.gs-reg-img span{
+	color: #7a05ca;
+}
+
+.gs-reg-text{
+	color: white;
+}
+
+.gs-reg-text h2{
+	font-size: 42pt;
+	font-family: "Audiowide", sans-serif;
+}
+
+.gs-reg-text h4{
+	color: #7a05ca;
+	font-size: 30pt;
+	font-family: "Audiowide", sans-serif;
+}
+
+.gs-reg-pole div input, .gs-reg-pole div textarea{
+	background-color: #2E2B3E;
+	border: none;
+	border-radius: 10px;
+	padding: 10px 6px;
+}
+
+.gs-reg-pole div input::placeholder, .gs-reg-pole div textarea::placeholder{
+	color: #828190;
+	padding-left: 10px;
+}
+
+.gs-reg-dog{
+	background-color: #564971;
+	color: #c8adbd;
+	border: none;
+	border-radius: 10px;
+}
+
+.gs-reg-sub{
+	font-size: 16pt;
+}
+
+.gs-foot{
+	background-color: #14074D;
+	padding: 60px 0;
+}
+
+.gs-foot-sots{
+	text-align: center;
+}
+
+.gs-foot-sots h2{
+	color: white;
+	font-size: 22pt;
+	font-family: "Audiowide", sans-serif;
+}
+
+.gs-foot-sots h2 span{
+	color: #7a05ca;
+}
+
+.gs-foot-sots p{
+	color: white;
+	margin: 20px 0;
+	font-size: 14pt;
+}
+
+.gs-foot-ic i{
+	color: white;
+	padding: 8px 10px;
+	border-radius: 8px;
+	margin: 10px;
+}
+
+.gs-ds{
+	background-color: #5865F2;
+}
+
+.gs-yt{
+	background-color: #c4302b;
+}
+
+.gs-tw{
+	background-color: #9146FF;
+}
+
+.gs-tg{
+	background-color: #27a7e7;
+}
+
+.gs-foot-nw1 img{
+	width: 100px;
+	height: fit-content;
+}
+
+.gs-foot-nwtext h6{ 
+	color: silver;
+	font-size: 10pt;
+}
+
+.gs-pl{
+	color: white;
+	background-color: #090128;
+	width: 45%;
+	padding: 10px;
+	border-radius: 15px;
+	border: solid 2px #270f40;
+	margin: 10px;
+}
+
+.gs-pl i{
+	font-size: 24pt;
+	margin-right: 20px;
+}
+
+.gs-pl h5{
+	font-size: 10pt;
+	margin-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

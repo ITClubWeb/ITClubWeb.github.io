@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Grechen+Fuemen&display=swap" rel="stylesheet">
+	<title>Perf</title>
+</head>
+<body>
+
+	<!--начало шапка-->
+	<nav class="navbar navbar-expand-lg">
+	  <div class="container">
+	    <a class="navbar-brand perf-naz" href="#">Perf</a>
+	    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	      <span class="navbar-toggler-icon"></span>
+	    </button>
+	    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	      <ul class="navbar-nav me-auto mb-2 mb-lg-0 perf-menu">
+	        <li class="nav-item">
+	          <a class="nav-link active perf-menu-active" aria-current="page" href="#">Home</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="#">Shop</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="#">Category</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="#">About us</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+	        </li>
+	      </ul>
+	      <form class="d-flex perf-search" role="search">
+	        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+	        <button class="btn btn-outline-success" type="submit"><i class="bi bi-cart4"></i> Card</button>
+	      </form>
+	    </div>
+	  </div>
+	</nav>
+	<!--конец шапка-->
+
+	<!--начало реклама1-->
+	<div class="container-fluid mt-5">
+		<div class="row">
+			<div class="col-4 p-0">
+				<div class="perf-r-blur">
+					<h3>Fall in love with out signature</h3>
+					<h2>Perfumes</h2>
+				 </div>
+				 <div class="perf-r-slog">
+				 	<p>Окутайте себя волшебством ароматов: Perfumers для неповторимого образа.</p>
+					 <h4>15M+</h4>
+					</div>
+			</div>
+			<div class="col-8 p-0">
+				<img src="img/banner.png" class="perf-r-img">
+			</div>
+		</div>
+	</div>
+	<!--конец реклама1-->
+
+	<!--начало карточки-->
+	<div class="container mt-5">
+		<div class="row">
+			<div class="col-12">
+				<h1 class="perf-cards-title">
+					Shop Our Wide Selection <br>
+					of Scents
+				</h1>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-4 my-3">
+				<a href="#" class="perf-card-link">
+					<div class="perf-card">
+						<img src="img/card1.png">
+						<h4>Byredo Bal d'Afrique</h4>
+						<h3> 20.750 rub</h3>
+					</div>
+				</a>
+			</div>
+
+			<div class="col-4 my-3">
+				<a href="#" class="perf-card-link">
+					<div class="perf-card">
+						<img src="img/card6.png">
+						<h4>Xerjoff Shooting Stars</h4>
+						<h3>19.350р</h3>
+					</div>
+				</a>
+			</div>
+
+			<div class="col-4 my-3">
+				<a href="#" class="perf-card-link">
+					<div class="perf-card">
+						<img src="img/card5.png">
+						<h4>Moresque Diadema</h4>
+						<h3>19.080р</h3>
+					</div>
+				</a>
+			</div>
+
+			<div class="col-4 my-3">
+				<a href="#" class="perf-card-link">
+					<div class="perf-card">
+						<img src="img/card4.png">
+						<h4>sean Paul Gaultier So Scandal</h4>
+						<h3>29.390р</h3>
+					</div>
+				</a>
+			</div>
+
+			<div class="col-4 my-3">
+				<a href="#" class="perf-card-link">
+					<div class="perf-card">
+						<img src="img/card3.png">
+						<h4>Guerlain L'Automne</h4>
+						<h3>1.000р</h3>
+					</div>
+				</a>
+			</div>
+
+			<div class="col-4 my-3">
+				<a href="#" class="perf-card-link">
+					<div class="perf-card">
+						<img src="img/card2.png">
+						<h4>Chanel №19 Eau de Parfum</h4>
+						<h3>26.990р</h3>
+					</div>
+				</a>
+			</div>
+
+		</div>
+	</div>
+	<!--конец карточки-->
+
+	<!--начало отзывы-->
+	<div class="container-fluid perf-refuse mt-5">
+		<div class="container py-5">
+		<div class="row">
+			<div class="col-12">
+				<h1 class="perf-refuse-title">Customer Reviews</h1>
+			</div>	
+		</div>
+
+		<div class="row">
+			<div id="carouselExampleIndicators" class="carousel slide">
+			  <div class="carousel-indicators">
+			    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+			    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+			    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+			  </div>
+
+
+			  <div class="carousel-inner px-5 my-5">
+			    <div class="carousel-item active">
+			      <div class="row px-5">
+			      	<div class="col-6">
+			      		<div class="perf-refuse-block">
+			      			<div class="perf-refuse-ot">
+			      				<div class="perf-refuse-star">
+				      				<i class="bi bi-star-fill"></i>
+				      				<i class="bi bi-star-fill"></i>
+				      				<i class="bi bi-star-fill"></i>
+				      				<i class="bi bi-star-half"></i>
+				      				<i class="bi bi-star"></i>
+			      				</div>
+			      				<p>Духи хорошие, жене понравились. Цена высокая</p>
+			      			</div>
+			      			<div class="perf-refuse-av">
+			      				<img src="img/ava1.png">
+			      				<h4>Boris 88</h4>
+			      			</div>
+			      		</div>
+			      	</div>
+			      	<div class="col-6">
+			      		<div class="perf-refuse-block">
+			      			<div class="perf-refuse-ot">
+			      				<div class="perf-refuse-star">
+				      				<i class="bi bi-star-fill"></i>
+				      				<i class="bi bi-star-fill"></i>
+				      				<i class="bi bi-star-fill"></i>
+				      				<i class="bi bi-star-fill"></i>
+				      				<i class="bi bi-star-fill"></i>
+			      				</div>
+			      				<p>духи чудесные, запах вкусный, покупал муж<br></p>
+			      			</div>
+			      			<div class="perf-refuse-av">
+			      				<img src="img/ava2.png">
+			      				<h4>Даша Орбякова</h4>
+			      			</div>
+			      		</div>
+			      	</div>
+			      </div>
+			    </div>
+
+
+			    <div class="carousel-item">
+			      <div class="row px-5">
+			      	<div class="col-6">
+			      		<div class="perf-refuse-block">
+			      			<div class="perf-refuse-ot">
+			      				<div class="perf-refuse-star">
+				      				<i class="bi bi-star-fill"></i>
+				      				<i class="bi bi-star-fill"></i>
+				      				<i class="bi bi-star-fill"></i>
+				      				<i class="bi bi-star-fill"></i>
+				      				<i class="bi bi-star"></i>
+			      				</div>
+			      				<p>приемущества:
+			      				вкусный запах.
+			      				недостатки:
+			      				нет.
+			      				цена:
+			      				низкая</p>
+			      			</div>
+			      			<div class="perf-refuse-av">
+			      				<img src="img/ava3.png">
+			      				<h4>Артур Рожков</h4>
+			      			</div>
+			      		</div>
+			      	</div>
+			      	<div class="col-6">
+			      		<div class="perf-refuse-block">
+			      			<div class="perf-refuse-ot">
+			      				<div class="perf-refuse-star">
+				      				<i class="bi bi-star-fill"></i>
+				      				<i class="bi bi-star-fill"></i>
+				      				<i class="bi bi-star-fill"></i>
+				      				<i class="bi bi-star-fill"></i>
+				      				<i class="bi bi-star"></i>
+			      				</div>
+			      				<p>Духи разбились в коробке( но духи всё равно пахнут довольно вкусно</p>
+			      			</div>
+			      			<div class="perf-refuse-av">
+			      				<img src="img/ava4.jpg">
+			      				<h4>Дмитрий Куплинов</h4>
+			      			</div>
+			      		</div>
+			      	</div>
+			      </div>
+			    </div>
+
+
+			    <div class="carousel-item">
+			      <div class="row px-5">
+			      	<div class="col-6">
+			      		<div class="perf-refuse-block">
+			      			<div class="perf-refuse-ot">
+			      				<div class="perf-refuse-star">
+				      				<i class="bi bi-star-fill"></i>
+				      				<i class="bi bi-star"></i>
+
+				      				<i class="bi bi-star"></i>
+
+				      				<i class="bi bi-star"></i>
+
+				      				<i class="bi bi-star"></i>
+			      				</div>
+			      				<p>дорого, ребёнок разбил за пять минут. ОДНА ЗВЕЗДА</p>
+			      			</div>
+			      			<div class="perf-refuse-av">
+			      				<img src="img/ava5.png">
+			      				<h4>Анна</h4>
+			      			</div>
+			      		</div>
+			      	</div>
+			      	<div class="col-6">
+			      		<div class="perf-refuse-block">
+			      			<div class="perf-refuse-ot">
+			      				<div class="perf-refuse-star">
+				      				<i class="bi bi-star-fill"></i>
+				      				<i class="bi bi-star-fill"></i>
+				      				<i class="bi bi-star-fill"></i>
+				      				<i class="bi bi-star-fill"></i>
+				      				<i class="bi bi-star-fill"></i>
+			      				</div>
+			      				<p>...Духи хоршие, болше сказать нечего</p>
+			      			</div>
+			      			<div class="perf-refuse-av">
+			      				<img src="img/ava6.png">
+			      				<h4>Влад Долинский</h4>
+			      			</div>
+			      		</div>
+			      	</div>
+			      </div>
+			    </div>
+
+
+			  </div>
+			  
+			  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+			    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			    <span class="visually-hidden">Previous</span>
+			  </button>
+			  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+			    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+			    <span class="visually-hidden">Next</span>
+			  </button>
+			</div>	
+		</div>
+	</div>
+	</div>
+	<!--коненц отзывы-->
+
+	<!--начало реклама2-->
+	<div class="container mt-5">
+		<div class="row my-5">
+			<div class="col-12">
+				<h1 class="perf-refuse-title">Our Distinctive Qualites</h1>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-3">
+				<div class="row">
+					<div class="col-12 my-5">
+						<h4 class="perf-rec-2-text-left">Long-lasting wear</h4>
+						<p class="perf-rec2-text-left">Прежде всего, постоянное информационно-пропагандистское обеспечение нашей деятельности в значительной степени обусловливает важность благоприятных перспектив.</p>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-12 my-5">
+						<h4 class="perf-rec-2-text-left">Sustainable pacing</h4>
+						<p class="perf-rec2-text-left">Прежде всего, постоянное информационно-пропагандистское обеспечение нашей деятельности в значительной степени обусловливает важность благоприятных перспектив.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-6 perf-rec2-img">
+				<img src="img/recl2.png">
+			</div>
+			<div class="col-3">
+				<div class="row">
+					<div class="col-12 my-5">
+						<h4 class="perf-rec-2-text-right">Natural ingrediens</h4>
+						<p class="perf-rec2-text-right">Прежде всего, постоянное информационно-пропагандистское обеспечение нашей деятельности в значительной степени обусловливает важность благоприятных перспектив.</p>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-12 my-5">
+						<h4 class="perf-rec-2-text-right">Unique scents</h4>
+						<p class="perf-rec2-text-right">Прежде всего, постоянное информационно-пропагандистское обеспечение нашей деятельности в значительной степени обусловливает важность благоприятных перспектив.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--конец реклама2-->
+
+	<!--начало фото-->
+	<div class="container my-5">
+		<div class="row">
+			<div class="col-3">
+				<div class="row">
+					<div class="col-12 perf-ph">
+						<img src="img/photo2.png">
+					</div>
+				</div>
+
+				<div class="row mt-5">
+					<div class="col-12 perf-ph">
+						<img src="img/photo5.png">
+					</div>
+				</div>
+			</div>
+			<div class="col-6 perf-ph mt-3">
+				<img src="img/photo1.png">
+			</div>
+			<div class="col-3">
+				<div class="row">
+					<div class="col-12 perf-ph">
+						<img src="img/photo4.png">
+					</div>
+				</div>
+
+				<div class="row mt-5">
+					<div class="col-12 perf-ph">
+						<img src="img/photo3.png">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--конец фото-->
+
+	<!--начало футер-->
+	<div class="container-fluid perf-footer mt-5">
+		<div class="container">
+		<div class="row mt-5 p-5">
+			<div class="col-4 perf-footer-col1">
+				<h2>Perf</h2>
+				<p>Мы вынуждены отталкиваться от того, что убеждённость некоторых оппонентов способствует повышению качества системы массового участия.</p>
+				<div class="perf-footer-icon">
+					<a href="#"><i class="bi bi-twitter"></i></a>
+					<a href="#"><i class="bi bi-twitch"></i></a>
+					<a href="#"><i class="bi bi-youtube"></i></a>
+					<a href="#"><i class="bi bi-instagram"></i></a>
+				</div>
+			</div>
+			<div class="col-2 perf-footer-col2">
+				<h3>OUR STORES</h3>
+				<ul>
+					<li>
+						<a href="#">New York</a>
+					</li>
+
+					<li>
+						<a href="#">Las Vegas</a>
+					</li>
+
+					<li>
+						<a href="#">Washington</a>
+					</li>
+
+					<li>
+						<a href="#">Chicago</a>
+					</li>
+				</ul>
+			</div>
+			<div class="col-2 perf-footer-col2">
+				<h3>USERFUL LINKS</h3>
+				<ul>
+					<li>
+						<a href="#">Privat Policy</a>
+					</li>
+
+					<li>
+						<a href="#">Returns</a>
+					</li>
+
+					<li>
+						<a href="#">Contact Us</a>
+					</li>
+
+					<li>
+						<a href="#">Our Sitemap</a>
+					</li>
+				</ul>
+			</div>
+			<div class="col-4 perf-footer-col4">
+				<h3>Join Newslatter</h3>
+				<div class="mb-3">
+			    <label for="exampleInputEmail1" class="form-label text-light">Email address</label>
+			    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+			  </div>
+			</div>
+		</div>
+		</div>
+	</div>
+	<!--конец футер-->
+	
+</body>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+</html>
