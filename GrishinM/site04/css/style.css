@@ -1,0 +1,246 @@
+@font-face{
+	font-family: 'Asakura Slab';
+	src: url(fonts/AsakuraSlab.ttf) format('truetype');
+}
+
+@font-face{
+	font-family: 'Zapus Sans';
+	src: url(fonts/ZapusSans-Regular.ttf) format('truetype');
+}
+
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Zapus Sans';
+}
+
+body{
+	background-color: black;
+
+}
+
+.mount-bg-hapka{
+	background-image: url('../img/man.png');
+	background-size: cover;
+	background-color: rgba(0, 0, 0, 0.5);
+	background-blend-mode: hue;
+	background-position: center;
+	min-height: 40rem;
+}
+
+.mount-bg-menu{
+	border-bottom: 1px white solid;
+	padding-bottom: 10px;
+	margin-top: 30px;
+}
+
+.mount-bg-menu a{
+	color: white;
+	font-family: 'Asakura Slab';
+	transition: all 0.2s;
+}
+
+.mount-bg-menu a:hover{
+	color: #55d3c8;
+}
+
+.mount-bg-poisk{
+	color: white;
+	transition: all 0.2s;
+}
+
+.mount-bg-poisk:hover{
+	color: #55d3c8;
+	border: 2px #55d3c8 solid;
+}
+
+.mount-bg-clayd{
+	margin: 130px 0;
+}
+
+.mount-bg-clayd div h1{
+	font-family: 'Asakura Slab';
+	font-size: 36pt;
+	color: #55d3c8;
+	text-transform: uppercase;
+}
+
+.mount-bg-clayd div p{
+	font-size: 14pt;
+	color: white;
+	width: 60%;
+	margin: 20px 0;
+}
+
+.mount-bg-clayding{
+	
+}
+
+.mount-bg-nomber a{
+	text-decoration: none;
+	color: white;
+	font-family: 'Asakura Slab';
+
+}
+
+.mount-bg-nomber a.active h4{
+	color: #55d3c8;
+
+}
+
+.mount-bg-img img{
+	width: 60px;
+	height: fit-content;
+	margin: 20px;
+}
+
+.mount-bg-imf h4{
+	color: white;
+	font-size: 12pt;
+	margin-bottom: 20px;
+
+}
+
+.mount-bg-imf a{
+	color: white;
+	font-family: 'Asakura Slab';
+	text-decoration: none;
+	font-size: 14pt;
+	transition: 0.3s;
+
+}
+
+.mount-bg-imf a:hover{
+	color: #55d3c8;
+}
+
+
+.mount-bg-imr{
+	border-bottom: 1px white solid;
+	padding-bottom: 40px;
+	margin-bottom: 40px;
+}
+
+.mount-bg-mesta{
+	text-align: center;
+}
+
+.mount-bg-mesta h2{
+	color: #55d3c8;
+	font-family: 'Asakura Slab';
+
+}
+
+.mount-bg-mesta h3{
+	color: white;
+	font-size: 16pt;
+	margin-top: 20px;
+}
+
+.mount-card{
+	text-decoration: none;
+}
+
+.mount-card div.mount-bg-zakrep{
+	width: 100%;
+	height: 400px;
+	background-size: cover;
+	background-color: rgba(0, 0, 0, 0.4);
+	background-blend-mode: hue;
+	background-position: center;
+	border-radius: 10px;
+	border: 1px #55d3c8 solid;
+	padding: 10px;
+	text-align: center;
+	transition: all 0.2s;
+}
+
+.mount-tour1 div.mount-bg-zakrep{
+	background-image: url('../img/vladivostok.png');
+}
+
+.mount-tour2 div.mount-bg-zakrep{
+	background-image: url('../img/baykal.png');
+}
+
+.mount-tour3 div.mount-bg-zakrep{
+	background-image: url('../img/beluxa.png');
+}
+
+.mount-tour4 div.mount-bg-zakrep{
+	background-image: url('../img/lenckie ctolbu.png');
+}
+
+.mount-nadpic{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.mount-nadpic h2{
+	color: #55d3c8;
+	font-family: 'Asakura Slab';
+	font-size: 18pt;
+}
+
+.mount-nadpic h4{
+	color: white;
+	font-size: 14pt;
+}
+
+.mount-card:hover div.mount-bg-zakrep{
+	background-color: rgba(0, 0, 0, 0.1);
+	transform: scale(1.1);
+}
+
+.mount-les{
+	background: 
+		linear-gradient(to bottom, rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.95)),
+		url(../img/les.jpg);
+	background-size: cover;
+	background-color: rgba(0, 0, 0, 0.5);
+	min-height: 50rem;
+	
+}
+
+.mount-les-text h1{
+	color: #55d3c8;
+	font-family: 'Asakura Slab';
+	font-size: 48pt;
+}
+
+.mount-les-text h3{
+	color: white;
+	margin: 40px 0;
+}
+
+.mount-les-text h3 i{
+	margin-right: 20px;
+	font-size: 30pt;
+}
+
+.mount-les-text h6{
+	color: silver;
+	width: 70%;
+}
+
+.mount-les-videos div img{
+	border: 2px white solid;
+	width: 100%;
+	border-radius: 5px;
+}
+
+.mount-footer{
+	margin: 40px 0;
+}
+
+.mount-footer a{
+	color: white;
+	font-size: 20pt;
+	margin: 20px;
+	transition: all 0.2s;
+
+}
+
+.mount-footer a:hover{
+	color: #55d3c8;
+}
