@@ -1,0 +1,168 @@
+body{
+	background-color: #E5D7C4;
+}
+
+.shapka{
+	background-color: #354034;
+	width: 900px;
+	margin: 10px auto;
+	padding: 10px 20px 40px 20px;
+	border-radius: 15px;
+}
+
+.main{
+	color: #889063;
+}
+
+.slogan{
+	color: #889063;
+	font-size: 16pt;
+	margin-top: -20px;
+}
+
+.links{
+	float: right;
+}
+
+.links a{
+	color: #e5d7c4;
+	text-decoration: none;
+	margin: 0 10px;
+}
+
+.links a:hover{
+	color: white;
+}
+
+.kvadrat{
+	margin: 0px auto;
+    width: 900px;
+    height: 450px;
+}
+
+.left{
+	float: left;
+	background-color: #4c3d19;
+	padding: 20px;
+	width: 400px;
+	height: 400px;
+	margin: 10px auto;
+	border-radius: 15px;
+	text-align: center;
+}
+
+.left img{
+	width: 300px;
+    border-radius: 30px;
+    margin: 50px auto;
+}
+
+.right{
+	float: right;
+	background-color: #4c3d19;
+	padding: 20px;
+	width: 400px;
+	height: 400px;
+	margin: 10px auto;
+	border-radius: 15px;
+	text-align: center;
+}
+
+.textreklama{
+	color:#889063;
+	font-size: 40pt;
+	margin-top: 50px;
+}
+
+.fon{
+	margin: 10px auto;
+    width: 900px;
+    background-color: #354024;
+    border-radius:15px;
+    padding: 20px;
+}
+
+.ryad{
+
+}
+
+.card{
+	width: 235px;
+	margin: 20px 10px;
+	padding: 20px 20px 30px 20px;
+	border-radius: 10px;
+	display: inline-table;
+	background: radial-gradient(circle,rgba(189, 204, 104, 1) 0%, rgba(229, 215, 196, 1) 100%);
+	}
+
+.card img{
+	width: 100%;
+	border-radius: 10px;
+}
+
+.card h5{
+	font-size: 14pt;
+	color: #354024;
+	margin-bottom: 4px;
+}
+
+.card h4{
+	font-size: 14pt;
+	color: #490206;
+	margin-top: 10px;
+}
+
+.card a{
+	background-color: #4c3d19;
+	color: #e5d7c4;
+	text-decoration: none;
+	padding: 6px 10px 8px 10px;
+	border-radius: 6px;
+}
+
+.card a:hover{
+	background-color: #354024;
+}
+
+.fonblock{
+	margin: 10px auto;
+    width: 900px;
+    height: 220px;
+    background: radial-gradient(circle,rgba(107, 117, 77, 1) 0%, rgba(247, 205, 146, 1) 100%);
+    border-radius:15px;
+    padding: 30px 20px;
+}
+
+.registrationleft{
+	width: 400px;
+	float: left;
+	margin-left: 50px;
+}
+
+.registrationphoto{
+	float: left;
+	width: 400px;
+	text-align: center;
+}
+
+.registrationphoto img{
+	width: 100px;
+	margin-top: 20px;
+}
+
+input{
+	margin-bottom: 10px;
+}
+
+.footer{
+	margin: 10px auto;
+    width: 900px;
+    background-color: #354034;
+    border-radius:15px;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.footer h3{
+	color: #889063;
+}
