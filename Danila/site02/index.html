@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+<body>
+
+<!-- header start -->
+
+  <!-- navbar start -->
+
+  <nav class="navbar navbar-expand-lg ltip-navbar-body">
+    <div class="container-fluid p-0">
+      <a class="navbar-brand ltip-navbar-brand" href="#">Logotip</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ltip-navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i class="bi bi-search"></i>
+            </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" aria-current="page" href="#">
+              Главная
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              Фильмы
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              Сериалы
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-disabled="true">
+              Мультфильмы
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- navbar end -->
+
+  <!-- carousel start -->
+
+  <div class="container-fluid my-5">
+    <div class="row">
+      <div class="col-12">
+        <div id="carouselExample" class="carousel slide carousel-fade">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="container">
+                <div class="row ltip-carousel">
+                  <div class="col-1"></div>
+                  <div class="col-2">
+                    <img src="img/matrica.jpg" alt="" class="w-100">
+                  </div>
+                  <div class="col-2">
+                    <img src="img/10 lifes.jpeg" alt="" class="w-100">
+                  </div>
+                  <div class="col-2">
+                    <img src="img/avatar.jpg" alt="" class="w-100">
+                  </div>
+                  <div class="col-2">
+                    <img src="img/chel neot.jpg" alt="" class="w-100">
+                  </div>
+                  <div class="col-2">
+                    <img src="img/ekipag.jpg" alt="" class="w-100">
+                  </div>
+                  <div class="col-1"></div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container">
+                <div class="row ltip-carousel">
+                  <div class="col-1"></div>
+                  <div class="col-2">
+                    <img src="img/holiwood.jpeg" alt="" class="w-100">
+                  </div>
+                  <div class="col-2">
+                    <img src="img/mira.jpg" alt="" class="w-100">
+                  </div>
+                  <div class="col-2">
+                    <img src="img/parker.jpg" alt="" class="w-100">
+                  </div>
+                  <div class="col-2">
+                    <img src="img/snegir.jpg" alt="" class="w-100">
+                  </div>
+                  <div class="col-2">
+                    <img src="img/titanic.jpg" alt="" class="w-100">
+                  </div>
+                  <div class="col-1"></div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container">
+                <div class="row ltip-carousel">
+                  <div class="col-1"></div>
+                  <div class="col-2">
+                    <img src="img/dance heart.webp" alt="" class="w-100">
+                  </div>
+                  <div class="col-2">
+                    <img src="img/vneseby.jpg" alt="" class="w-100">
+                  </div>
+                  <div class="col-2">
+                    <img src="img/djoker.jpg" alt="" class="w-100">
+                  </div>
+                  <div class="col-2">
+                    <img src="img/gadkiyi.webp" alt="" class="w-100">
+                  </div>
+                  <div class="col-2">
+                    <img src="img/wonka.webp" alt="" class="w-100">
+                  </div>
+                  <div class="col-1"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- carousel end -->
+
+<!-- header end -->
+
+
+<!-- main info start -->
+
+  <!-- text-header start -->
+  <div class="ltip-cards-main">
+    <div class="container-fluid ltip-cards">
+      <div class="row justify-content-between">
+        <div class="col-4 text-header">
+          <h2>Смотреть фильмы</h2>
+        </div>
+
+        <div class="col-4 text-end ltip-cards-filter">
+          <a href="#" class="btn">Фильтр <i class="bi bi-filter"></i></a>
+          <a href="#" class="btn"><i class="bi bi-list-ul"></i></a>
+          <a href="#" class="btn"><i class="bi bi-grid-3x3-gap-fill"></i></a>
+        </div>
+      </div>
+
+      <div class="row ltip-cards-nav">
+        <div class="col-12">
+          <a href="#" class="active">Все фильмы</a>
+          <a href="#">Сериалы</a>
+          <a href="#">Мультфильмы</a>
+        </div>
+      </div>
+      <hr class="ltip-hr">
+
+      <!-- text-header end -->
+
+      <!-- cards start -->
+
+      <div class="row card-main">
+        <div class="col-2">
+          <a href="#">
+            <div class="card-film film-1">
+              <div class="row-film d-flex justify-content-between">
+                <div class="col-film">
+                  67%
+                </div>
+                <div class="col-film">
+                  HD
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-2">
+          <a href="#">
+            <div class="card-film film-2">
+              <div class="row-film d-flex justify-content-between">
+                <div class="col-film">
+                  40%
+                </div>
+                <div class="col-film">
+                  HD
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-2">
+          <a href="#">
+            <div class="card-film film-3">
+              <div class="row-film d-flex justify-content-between">
+                <div class="col-film">
+                  0%
+                </div>
+                <div class="col-film">
+                  HD
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-2">
+          <a href="#">
+            <div class="card-film film-4">
+              <div class="row-film d-flex justify-content-between">
+                <div class="col-film">
+                  89%
+                </div>
+                <div class="col-film">
+                  HD
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-2">
+          <a href="#">
+            <div class="card-film film-5">
+              <div class="row-film d-flex justify-content-between">
+                <div class="col-film">
+                  100%
+                </div>
+                <div class="col-film">
+                  HD
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-2">
+          <a href="#">
+            <div class="card-film film-6">
+              <div class="row-film d-flex justify-content-between">
+                <div class="col-film">
+                  23%
+                </div>
+                <div class="col-film">
+                  HD
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="row card-main">
+        <div class="col-2">
+          <a href="#">
+            <div class="card-film film-6">
+              <div class="row-film d-flex justify-content-between">
+                <div class="col-film">
+                  23%
+                </div>
+                <div class="col-film">
+                  HD
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-2">
+          <a href="#">
+            <div class="card-film film-1">
+              <div class="row-film d-flex justify-content-between">
+                <div class="col-film">
+                  67%
+                </div>
+                <div class="col-film">
+                  HD
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-2">
+          <a href="#">
+            <div class="card-film film-2">
+              <div class="row-film d-flex justify-content-between">
+                <div class="col-film">
+                  40%
+                </div>
+                <div class="col-film">
+                  HD
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-2">
+          <a href="#">
+            <div class="card-film film-3">
+              <div class="row-film d-flex justify-content-between">
+                <div class="col-film">
+                  0%
+                </div>
+                <div class="col-film">
+                  HD
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-2">
+          <a href="#">
+            <div class="card-film film-4">
+              <div class="row-film d-flex justify-content-between">
+                <div class="col-film">
+                  89%
+                </div>
+                <div class="col-film">
+                  HD
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-2">
+          <a href="#">
+            <div class="card-film film-5">
+              <div class="row-film d-flex justify-content-between">
+                <div class="col-film">
+                  100%
+                </div>
+                <div class="col-film">
+                  HD
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-2">
+          <a href="#">
+            <div class="card-film film-5">
+              <div class="row-film d-flex justify-content-between">
+                <div class="col-film">
+                  100%
+                </div>
+                <div class="col-film">
+                  HD
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-2">
+          <a href="#">
+            <div class="card-film film-6">
+              <div class="row-film d-flex justify-content-between">
+                <div class="col-film">
+                  23%
+                </div>
+                <div class="col-film">
+                  HD
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-2">
+          <a href="#">
+            <div class="card-film film-1">
+              <div class="row-film d-flex justify-content-between">
+                <div class="col-film">
+                  67%
+                </div>
+                <div class="col-film">
+                  HD
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-2">
+          <a href="#">
+            <div class="card-film film-2">
+              <div class="row-film d-flex justify-content-between">
+                <div class="col-film">
+                  40%
+                </div>
+                <div class="col-film">
+                  HD
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-2">
+          <a href="#">
+            <div class="card-film film-3">
+              <div class="row-film d-flex justify-content-between">
+                <div class="col-film">
+                  0%
+                </div>
+                <div class="col-film">
+                  HD
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-2">
+          <a href="#">
+            <div class="card-film film-4">
+              <div class="row-film d-flex justify-content-between">
+                <div class="col-film">
+                  89%
+                </div>
+                <div class="col-film">
+                  HD
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="row card-main">
+        <div class="col-2">
+          <a href="#">
+            <div class="card-film film-4">
+              <div class="row-film d-flex justify-content-between">
+                <div class="col-film">
+                  89%
+                </div>
+                <div class="col-film">
+                  HD
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-2">
+          <a href="#">
+            <div class="card-film film-5">
+              <div class="row-film d-flex justify-content-between">
+                <div class="col-film">
+                  100%
+                </div>
+                <div class="col-film">
+                  HD
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-2">
+          <a href="#">
+            <div class="card-film film-6">
+              <div class="row-film d-flex justify-content-between">
+                <div class="col-film">
+                  23%
+                </div>
+                <div class="col-film">
+                  HD
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-2">
+          <a href="#">
+            <div class="card-film film-1">
+              <div class="row-film d-flex justify-content-between">
+                <div class="col-film">
+                  67%
+                </div>
+                <div class="col-film">
+                  HD
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-2">
+          <a href="#">
+            <div class="card-film film-2">
+              <div class="row-film d-flex justify-content-between">
+                <div class="col-film">
+                  40%
+                </div>
+                <div class="col-film">
+                  HD
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-2">
+          <a href="#">
+            <div class="card-film film-3">
+              <div class="row-film d-flex justify-content-between">
+                <div class="col-film">
+                  0%
+                </div>
+                <div class="col-film">
+                  HD
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <!-- cards end -->
+
+      <!-- pagination start -->
+
+      <div class="row">
+        <div class="col-12 justify-content-center d-flex">
+          <nav aria-label="Page navigation example">
+            <ul class="ltip-cards-pagination">
+              <li>
+                <a href="#" aria-label="Previous">
+                  <i class="bi bi-arrow-left-short"></i>
+                </a>
+              </li>
+              <li class="active"><a href="#">1</a></li>
+              <li><a href="#">2</a></li>
+              <li><a href="#">3</a></li>
+              <li>
+                <a href="#" aria-label="Next">
+                  <i class="bi bi-arrow-right-short"></i>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+      <!-- pagination end -->
+
+    </div>
+  </div>
+
+<!-- main info end -->
+
+<!-- prefooter start -->
+
+  <div class="ltip-cards-main">
+    <div class="container-fluid ltip-prefooter">
+      <div class="row">
+        <div class="col-12 text-header">
+          <h2>Смотреть фильмы и сериалы онлайн бесплатно</h2>
+        </div>
+        <div class="col-12">
+          <p class="ltip-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Ducimus tempora, rem pariatur esse, debitis molestiae ratione ad vero
+            eos eum distinctio enim neque, tempore similique sint error quam!
+            Asperiores, voluptatem.</p>
+        </div>
+        <div class="col-12 ltip-prefooter-text my-3">
+          <a data-bs-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+            Показать больше<i class="bi bi-caret-down-fill"></i>
+          </a>
+        </div>
+        <div class="col-12 collapse" id="collapseExample">
+          <p class="ltip-text">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Numquam debitis cumque, facere quae incidunt excepturi sequi, delectus nostrum quidem harum
+            reprehenderit blanditiis impedit? Temporibus quisquam aliquam rerum? Similique, voluptas
+            perspiciatis!
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- prefooter end -->
+
+
+<!-- footer start -->
+
+<div class="container-fluid ltip-footer">
+  <div class="row ltip-footer-nav">
+    <div class="col-12">
+      <a href="#">Правила</a>
+      <a href="#">Реклама</a>
+      <a href="#">FAQ</a>
+      <a href="#">Обратная связь</a>
+    </div>
+    <div class="row ltip-footer-text">
+      <div class="col-12">
+        <p>© Logotip.com 2025. Все права защищены.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- footer end -->
+
+</body>
+
+<script type="text/javascript" src="js/bootstrap.bundle.js"></script>
+
+</html>
